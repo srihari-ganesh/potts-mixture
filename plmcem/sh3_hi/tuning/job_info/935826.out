@@ -1,0 +1,813 @@
+tuning/outputs/tuning_run_44/ created
+tuning/outputs/tuning_run_44/iterations/ created
+tuning/outputs/tuning_run_44/output/ created
+{'msa-file-name': 'sh3_hi_sampled_seqs.fa', 'em_maxiter': 30, 'em_numclusters': 2, 'em_device': None, 'em_init': 'kmeans', 'em_no_iter_print': 0, 'plmc': '../../plmc/bin/plmc', 'output': 'tuning/outputs/tuning_run_44', 'fast': 1, 'scale': None, 'theta': '0.8', 'lambdah': '0.01', 'lambdae': '16.0', 'lambdag': None, 'gapignore': 0, 'maxiter': '20', 'ncores': 6, 'gapignore_tune': '0', 'fast_tune': '1', 'em_iter_print': 1, 'iterations_dir': 'tuning/outputs/tuning_run_44/iterations/', 'final_dir': 'tuning/outputs/tuning_run_44/output/', 'output_dir': 'tuning/outputs/tuning_run_44/', 'plmc_options': ['-t 0.8', '-lh 0.01', '-le 16.0', '-m 20', '-n 6', '--fast'], 'device': device(type='cpu')}
+
+Using cpu
+
+
+Iteration 0:
+
+sh3_hi_sampled_seqs_cluster0_iter0:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+1138 valid sequences out of 1138 
+41 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	0.1	119.8	0.0	0.0	0.0
+
+
+sh3_hi_sampled_seqs_cluster1_iter0:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+862 valid sequences out of 862 
+41 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.1	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	0.1	122.9	0.0	0.0	0.0
+
+
+Iteration 1:
+
+sh3_hi_sampled_seqs_cluster0_iter1:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+1127 valid sequences out of 1127 
+41 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	0.1	119.9	0.0	0.0	0.0
+
+
+sh3_hi_sampled_seqs_cluster1_iter1:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+873 valid sequences out of 873 
+41 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.1	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	0.1	123.0	0.0	0.0	0.0
+
+
+Iteration 2:
+
+sh3_hi_sampled_seqs_cluster0_iter2:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+1117 valid sequences out of 1117 
+41 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	0.1	120.0	0.0	0.0	0.0
+
+
+sh3_hi_sampled_seqs_cluster1_iter2:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+883 valid sequences out of 883 
+41 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.1	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	0.1	123.1	0.0	0.0	0.0
+
+
+Iteration 3:
+
+sh3_hi_sampled_seqs_cluster0_iter3:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+1107 valid sequences out of 1107 
+41 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	0.1	119.9	0.0	0.0	0.0
+
+
+sh3_hi_sampled_seqs_cluster1_iter3:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+893 valid sequences out of 893 
+41 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.1	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	0.1	123.3	0.0	0.0	0.0
+
+
+Iteration 4:
+
+sh3_hi_sampled_seqs_cluster0_iter4:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+1084 valid sequences out of 1084 
+41 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	0.1	119.9	0.0	0.0	0.0
+
+
+sh3_hi_sampled_seqs_cluster1_iter4:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+916 valid sequences out of 916 
+41 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.1	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	0.1	123.4	0.0	0.0	0.0
+
+
+Iteration 5:
+
+sh3_hi_sampled_seqs_cluster0_iter5:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+1080 valid sequences out of 1080 
+41 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	0.1	120.0	0.0	0.0	0.0
+
+
+sh3_hi_sampled_seqs_cluster1_iter5:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+920 valid sequences out of 920 
+41 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.1	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	0.1	123.6	0.0	0.0	0.0
+
+
+Iteration 6:
+
+sh3_hi_sampled_seqs_cluster0_iter6:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+1082 valid sequences out of 1082 
+41 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	0.1	120.1	0.0	0.0	0.0
+
+
+sh3_hi_sampled_seqs_cluster1_iter6:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+918 valid sequences out of 918 
+41 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.1	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	0.1	123.7	0.0	0.0	0.0
+
+
+Iteration 7:
+
+sh3_hi_sampled_seqs_cluster0_iter7:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+1080 valid sequences out of 1080 
+41 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	0.1	119.9	0.0	0.0	0.0
+
+
+sh3_hi_sampled_seqs_cluster1_iter7:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+920 valid sequences out of 920 
+41 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.1	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	0.1	123.9	0.0	0.0	0.0
+
+
+Iteration 8:
+
+sh3_hi_sampled_seqs_cluster0_iter8:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+1079 valid sequences out of 1079 
+41 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	0.1	119.9	0.0	0.0	0.0
+
+
+sh3_hi_sampled_seqs_cluster1_iter8:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+921 valid sequences out of 921 
+41 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.1	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	0.1	123.9	0.0	0.0	0.0
+
+
+Iteration 9:
+
+sh3_hi_sampled_seqs_cluster0_iter9:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+1078 valid sequences out of 1078 
+41 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	0.1	119.9	0.0	0.0	0.0
+
+
+sh3_hi_sampled_seqs_cluster1_iter9:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+922 valid sequences out of 922 
+41 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.1	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	0.1	123.9	0.0	0.0	0.0
+
+
+Iteration 10:
+
+sh3_hi_sampled_seqs_cluster0_iter10:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+1069 valid sequences out of 1069 
+41 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	0.1	119.9	0.0	0.0	0.0
+
+
+sh3_hi_sampled_seqs_cluster1_iter10:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+931 valid sequences out of 931 
+41 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.1	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	0.1	124.2	0.0	0.0	0.0
+
+
+Iteration 11:
+
+sh3_hi_sampled_seqs_cluster0_iter11:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+1060 valid sequences out of 1060 
+41 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	0.1	119.9	0.0	0.0	0.0
+
+
+sh3_hi_sampled_seqs_cluster1_iter11:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+940 valid sequences out of 940 
+41 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.1	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	0.1	124.3	0.0	0.0	0.0
+
+
+Iteration 12:
+
+sh3_hi_sampled_seqs_cluster0_iter12:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+1055 valid sequences out of 1055 
+41 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	0.1	119.8	0.0	0.0	0.0
+
+
+sh3_hi_sampled_seqs_cluster1_iter12:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+945 valid sequences out of 945 
+41 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.1	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	0.1	124.2	0.0	0.0	0.0
+
+
+Iteration 13:
+
+sh3_hi_sampled_seqs_cluster0_iter13:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+1055 valid sequences out of 1055 
+41 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	0.1	119.9	0.0	0.0	0.0
+
+
+sh3_hi_sampled_seqs_cluster1_iter13:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+945 valid sequences out of 945 
+41 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.1	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	0.1	124.2	0.0	0.0	0.0
+
+
+Iteration 14:
+
+sh3_hi_sampled_seqs_cluster0_iter14:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+1051 valid sequences out of 1051 
+41 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	0.1	119.9	0.0	0.0	0.0
+
+
+sh3_hi_sampled_seqs_cluster1_iter14:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+949 valid sequences out of 949 
+41 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.1	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	0.1	124.2	0.0	0.0	0.0
+
+
+Iteration 15:
+
+sh3_hi_sampled_seqs_cluster0_iter15:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+1053 valid sequences out of 1053 
+41 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	0.1	120.0	0.0	0.0	0.0
+
+
+sh3_hi_sampled_seqs_cluster1_iter15:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+947 valid sequences out of 947 
+41 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.1	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	0.1	124.2	0.0	0.0	0.0
+
+
+Iteration 16:
+
+sh3_hi_sampled_seqs_cluster0_iter16:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+1052 valid sequences out of 1052 
+41 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	0.1	119.9	0.0	0.0	0.0
+
+
+sh3_hi_sampled_seqs_cluster1_iter16:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+948 valid sequences out of 948 
+41 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.1	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	0.1	124.1	0.0	0.0	0.0
+
+
+Iteration 17:
+
+sh3_hi_sampled_seqs_cluster0_iter17:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+1052 valid sequences out of 1052 
+41 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	0.1	119.9	0.0	0.0	0.0
+
+
+sh3_hi_sampled_seqs_cluster1_iter17:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+948 valid sequences out of 948 
+41 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.1	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	0.1	124.2	0.0	0.0	0.0
+
+
+Iteration 18:
+
+sh3_hi_sampled_seqs_cluster0_iter18:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+1047 valid sequences out of 1047 
+41 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	0.1	119.9	0.0	0.0	0.0
+
+
+sh3_hi_sampled_seqs_cluster1_iter18:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+953 valid sequences out of 953 
+41 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.1	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	0.1	124.2	0.0	0.0	0.0
+
+
+Iteration 19:
+
+sh3_hi_sampled_seqs_cluster0_iter19:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+1044 valid sequences out of 1044 
+41 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	0.1	119.8	0.0	0.0	0.0
+
+
+sh3_hi_sampled_seqs_cluster1_iter19:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+956 valid sequences out of 956 
+41 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.1	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	0.1	124.2	0.0	0.0	0.0
+
+
+Iteration 20:
+
+sh3_hi_sampled_seqs_cluster0_iter20:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+1039 valid sequences out of 1039 
+41 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	0.1	119.7	0.0	0.0	0.0
+
+
+sh3_hi_sampled_seqs_cluster1_iter20:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+961 valid sequences out of 961 
+41 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.1	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	0.1	124.3	0.0	0.0	0.0
+
+
+Iteration 21:
+
+sh3_hi_sampled_seqs_cluster0_iter21:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+1042 valid sequences out of 1042 
+41 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	0.1	119.6	0.0	0.0	0.0
+
+
+sh3_hi_sampled_seqs_cluster1_iter21:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+958 valid sequences out of 958 
+41 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.1	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	0.1	124.5	0.0	0.0	0.0
+
+
+Iteration 22:
+
+sh3_hi_sampled_seqs_cluster0_iter22:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+1040 valid sequences out of 1040 
+41 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	0.1	119.6	0.0	0.0	0.0
+
+
+sh3_hi_sampled_seqs_cluster1_iter22:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+960 valid sequences out of 960 
+41 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.1	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	0.1	124.5	0.0	0.0	0.0
+
+
+Iteration 23:
+
+sh3_hi_sampled_seqs_cluster0_iter23:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+1043 valid sequences out of 1043 
+41 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	0.1	119.7	0.0	0.0	0.0
+
+
+sh3_hi_sampled_seqs_cluster1_iter23:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+957 valid sequences out of 957 
+41 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.1	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	0.1	124.5	0.0	0.0	0.0
+
+
+Iteration 24:
+
+sh3_hi_sampled_seqs_cluster0_iter24:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+1042 valid sequences out of 1042 
+41 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	0.1	119.6	0.0	0.0	0.0
+
+
+sh3_hi_sampled_seqs_cluster1_iter24:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+958 valid sequences out of 958 
+41 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.1	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	0.1	124.5	0.0	0.0	0.0
+
+
+Iteration 25:
+
+sh3_hi_sampled_seqs_cluster0_iter25:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+1039 valid sequences out of 1039 
+41 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	0.1	119.6	0.0	0.0	0.0
+
+
+sh3_hi_sampled_seqs_cluster1_iter25:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+961 valid sequences out of 961 
+41 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.1	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	0.1	124.5	0.0	0.0	0.0
+
+
+Iteration 26:
+
+sh3_hi_sampled_seqs_cluster0_iter26:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+1040 valid sequences out of 1040 
+41 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	0.1	119.5	0.0	0.0	0.0
+
+
+sh3_hi_sampled_seqs_cluster1_iter26:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+960 valid sequences out of 960 
+41 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.1	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	0.1	124.6	0.0	0.0	0.0
+
+
+Iteration 27:
+
+sh3_hi_sampled_seqs_cluster0_iter27:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+1045 valid sequences out of 1045 
+41 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	0.1	119.6	0.0	0.0	0.0
+
+
+sh3_hi_sampled_seqs_cluster1_iter27:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+955 valid sequences out of 955 
+41 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.1	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	0.1	124.6	0.0	0.0	0.0
+
+
+Iteration 28:
+
+sh3_hi_sampled_seqs_cluster0_iter28:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+1042 valid sequences out of 1042 
+41 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	0.1	119.6	0.0	0.0	0.0
+
+
+sh3_hi_sampled_seqs_cluster1_iter28:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+958 valid sequences out of 958 
+41 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.1	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	0.1	124.6	0.0	0.0	0.0
+
+
+Iteration 29:
+
+sh3_hi_sampled_seqs_cluster0_iter29:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+1044 valid sequences out of 1044 
+41 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	0.1	119.5	0.0	0.0	0.0
+
+
+sh3_hi_sampled_seqs_cluster1_iter29:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+956 valid sequences out of 956 
+41 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.1	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	0.1	124.7	0.0	0.0	0.0
+
+
+Iteration 30:
+
+sh3_hi_sampled_seqs_cluster0_iter30:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+1042 valid sequences out of 1042 
+41 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	0.1	119.5	0.0	0.0	0.0
+
+
+sh3_hi_sampled_seqs_cluster1_iter30:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+958 valid sequences out of 958 
+41 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.1	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	0.1	124.7	0.0	0.0	0.0
+

@@ -1,0 +1,738 @@
+tuning/outputs/tuning_run_41/ created
+tuning/outputs/tuning_run_41/iterations/ created
+tuning/outputs/tuning_run_41/output/ created
+{'msa-file-name': 'murA_lpxC_filtered.fa', 'em_maxiter': 30, 'em_numclusters': 2, 'em_device': None, 'em_init': 'random', 'em_no_iter_print': 0, 'plmc': '../../plmc/bin/plmc', 'output': 'tuning/outputs/tuning_run_41', 'fast': 1, 'scale': None, 'theta': '0.8', 'lambdah': '0.01', 'lambdae': '16.0', 'lambdag': None, 'gapignore': 0, 'maxiter': '10', 'ncores': 6, 'gapignore_tune': '0', 'fast_tune': '1', 'em_iter_print': 1, 'iterations_dir': 'tuning/outputs/tuning_run_41/iterations/', 'final_dir': 'tuning/outputs/tuning_run_41/output/', 'output_dir': 'tuning/outputs/tuning_run_41/', 'plmc_options': ['-t 0.8', '-lh 0.01', '-le 16.0', '-m 10', '-n 6', '--fast'], 'device': device(type='cpu')}
+
+Using cpu
+
+
+Iteration 0:
+
+murA_lpxC_filtered_cluster0_iter0:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+4151 valid sequences out of 4151 
+724 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	25.0	1986.1	0.0	0.0	0.0
+
+
+murA_lpxC_filtered_cluster1_iter0:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+4151 valid sequences out of 4151 
+724 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	24.9	1987.2	0.0	0.0	0.0
+
+
+Iteration 1:
+
+murA_lpxC_filtered_cluster0_iter1:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+4457 valid sequences out of 4457 
+724 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	23.9	1980.2	0.0	0.0	0.0
+
+
+murA_lpxC_filtered_cluster1_iter1:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+3845 valid sequences out of 3845 
+724 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	23.3	1991.0	0.0	0.0	0.0
+
+
+Iteration 2:
+
+murA_lpxC_filtered_cluster0_iter2:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+4991 valid sequences out of 4991 
+724 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	22.7	1975.1	0.0	0.0	0.0
+
+
+murA_lpxC_filtered_cluster1_iter2:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+3311 valid sequences out of 3311 
+724 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	20.2	1995.6	0.0	0.0	0.0
+
+
+Iteration 3:
+
+murA_lpxC_filtered_cluster0_iter3:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+5107 valid sequences out of 5107 
+724 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	21.4	1972.3	0.0	0.0	0.0
+
+
+murA_lpxC_filtered_cluster1_iter3:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+3195 valid sequences out of 3195 
+724 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	21.5	1998.3	0.0	0.0	0.0
+
+
+Iteration 4:
+
+murA_lpxC_filtered_cluster0_iter4:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+5123 valid sequences out of 5123 
+724 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	21.5	1969.8	0.0	0.0	0.0
+
+
+murA_lpxC_filtered_cluster1_iter4:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+3179 valid sequences out of 3179 
+724 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	21.5	1998.8	0.0	0.0	0.0
+
+
+Iteration 5:
+
+murA_lpxC_filtered_cluster0_iter5:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+5123 valid sequences out of 5123 
+724 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	19.5	1967.9	0.0	0.0	0.0
+
+
+murA_lpxC_filtered_cluster1_iter5:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+3179 valid sequences out of 3179 
+724 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	18.4	1999.4	0.0	0.0	0.0
+
+
+Iteration 6:
+
+murA_lpxC_filtered_cluster0_iter6:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+5207 valid sequences out of 5207 
+724 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	23.4	1968.3	0.0	0.0	0.0
+
+
+murA_lpxC_filtered_cluster1_iter6:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+3095 valid sequences out of 3095 
+724 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	23.1	1999.7	0.0	0.0	0.0
+
+
+Iteration 7:
+
+murA_lpxC_filtered_cluster0_iter7:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+5208 valid sequences out of 5208 
+724 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	22.0	1967.7	0.0	0.0	0.0
+
+
+murA_lpxC_filtered_cluster1_iter7:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+3094 valid sequences out of 3094 
+724 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	21.3	1999.7	0.0	0.0	0.0
+
+
+Iteration 8:
+
+murA_lpxC_filtered_cluster0_iter8:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+5215 valid sequences out of 5215 
+724 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	22.0	1967.5	0.0	0.0	0.0
+
+
+murA_lpxC_filtered_cluster1_iter8:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+3087 valid sequences out of 3087 
+724 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	19.8	1999.7	0.0	0.0	0.0
+
+
+Iteration 9:
+
+murA_lpxC_filtered_cluster0_iter9:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+5208 valid sequences out of 5208 
+724 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	21.8	1967.7	0.0	0.0	0.0
+
+
+murA_lpxC_filtered_cluster1_iter9:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+3094 valid sequences out of 3094 
+724 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	18.8	1999.6	0.0	0.0	0.0
+
+
+Iteration 10:
+
+murA_lpxC_filtered_cluster0_iter10:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+5209 valid sequences out of 5209 
+724 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	20.7	1967.9	0.0	0.0	0.0
+
+
+murA_lpxC_filtered_cluster1_iter10:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+3093 valid sequences out of 3093 
+724 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	20.7	1999.8	0.0	0.0	0.0
+
+
+Iteration 11:
+
+murA_lpxC_filtered_cluster0_iter11:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+5209 valid sequences out of 5209 
+724 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	21.0	1967.4	0.0	0.0	0.0
+
+
+murA_lpxC_filtered_cluster1_iter11:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+3093 valid sequences out of 3093 
+724 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	21.3	1999.5	0.0	0.0	0.0
+
+
+Iteration 12:
+
+murA_lpxC_filtered_cluster0_iter12:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+5213 valid sequences out of 5213 
+724 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	19.1	1967.3	0.0	0.0	0.0
+
+
+murA_lpxC_filtered_cluster1_iter12:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+3089 valid sequences out of 3089 
+724 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	20.7	1999.6	0.0	0.0	0.0
+
+
+Iteration 13:
+
+murA_lpxC_filtered_cluster0_iter13:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+5213 valid sequences out of 5213 
+724 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	19.7	1967.1	0.0	0.0	0.0
+
+
+murA_lpxC_filtered_cluster1_iter13:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+3089 valid sequences out of 3089 
+724 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	21.3	1999.2	0.0	0.0	0.0
+
+
+Iteration 14:
+
+murA_lpxC_filtered_cluster0_iter14:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+5223 valid sequences out of 5223 
+724 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	18.9	1967.3	0.0	0.0	0.0
+
+
+murA_lpxC_filtered_cluster1_iter14:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+3079 valid sequences out of 3079 
+724 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	22.6	2000.2	0.0	0.0	0.0
+
+
+Iteration 15:
+
+murA_lpxC_filtered_cluster0_iter15:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+5241 valid sequences out of 5241 
+724 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	17.8	1967.9	0.0	0.0	0.0
+
+
+murA_lpxC_filtered_cluster1_iter15:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+3061 valid sequences out of 3061 
+724 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	20.0	1999.8	0.0	0.0	0.0
+
+
+Iteration 16:
+
+murA_lpxC_filtered_cluster0_iter16:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+5241 valid sequences out of 5241 
+724 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	19.2	1967.3	0.0	0.0	0.0
+
+
+murA_lpxC_filtered_cluster1_iter16:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+3061 valid sequences out of 3061 
+724 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	17.2	1999.5	0.0	0.0	0.0
+
+
+Iteration 17:
+
+murA_lpxC_filtered_cluster0_iter17:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+5236 valid sequences out of 5236 
+724 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	20.0	1968.5	0.0	0.0	0.0
+
+
+murA_lpxC_filtered_cluster1_iter17:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+3066 valid sequences out of 3066 
+724 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	18.8	1999.6	0.0	0.0	0.0
+
+
+Iteration 18:
+
+murA_lpxC_filtered_cluster0_iter18:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+5248 valid sequences out of 5248 
+724 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	20.1	1968.0	0.0	0.0	0.0
+
+
+murA_lpxC_filtered_cluster1_iter18:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+3054 valid sequences out of 3054 
+724 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	19.5	1999.8	0.0	0.0	0.0
+
+
+Iteration 19:
+
+murA_lpxC_filtered_cluster0_iter19:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+5267 valid sequences out of 5267 
+724 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	18.8	1968.0	0.0	0.0	0.0
+
+
+murA_lpxC_filtered_cluster1_iter19:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+3035 valid sequences out of 3035 
+724 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	20.7	2000.3	0.0	0.0	0.0
+
+
+Iteration 20:
+
+murA_lpxC_filtered_cluster0_iter20:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+5273 valid sequences out of 5273 
+724 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	18.7	1967.9	0.0	0.0	0.0
+
+
+murA_lpxC_filtered_cluster1_iter20:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+3029 valid sequences out of 3029 
+724 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	18.2	2000.0	0.0	0.0	0.0
+
+
+Iteration 21:
+
+murA_lpxC_filtered_cluster0_iter21:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+5274 valid sequences out of 5274 
+724 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	19.2	1967.5	0.0	0.0	0.0
+
+
+murA_lpxC_filtered_cluster1_iter21:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+3028 valid sequences out of 3028 
+724 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	20.4	2000.0	0.0	0.0	0.0
+
+
+Iteration 22:
+
+murA_lpxC_filtered_cluster0_iter22:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+5279 valid sequences out of 5279 
+724 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	19.3	1967.8	0.0	0.0	0.0
+
+
+murA_lpxC_filtered_cluster1_iter22:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+3023 valid sequences out of 3023 
+724 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	18.9	1999.9	0.0	0.0	0.0
+
+
+Iteration 23:
+
+murA_lpxC_filtered_cluster0_iter23:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+5279 valid sequences out of 5279 
+724 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	18.4	1967.8	0.0	0.0	0.0
+
+
+murA_lpxC_filtered_cluster1_iter23:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+3023 valid sequences out of 3023 
+724 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	18.7	2000.0	0.0	0.0	0.0
+
+
+Iteration 24:
+
+murA_lpxC_filtered_cluster0_iter24:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+5281 valid sequences out of 5281 
+724 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	17.7	1968.1	0.0	0.0	0.0
+
+
+murA_lpxC_filtered_cluster1_iter24:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+3021 valid sequences out of 3021 
+724 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	18.7	2000.0	0.0	0.0	0.0
+
+
+Iteration 25:
+
+murA_lpxC_filtered_cluster0_iter25:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+5281 valid sequences out of 5281 
+724 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	18.7	1968.3	0.0	0.0	0.0
+
+
+murA_lpxC_filtered_cluster1_iter25:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+3021 valid sequences out of 3021 
+724 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	18.9	1999.7	0.0	0.0	0.0
+
+
+Iteration 26:
+
+murA_lpxC_filtered_cluster0_iter26:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+5282 valid sequences out of 5282 
+724 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	18.1	1968.1	0.0	0.0	0.0
+
+
+murA_lpxC_filtered_cluster1_iter26:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+3020 valid sequences out of 3020 
+724 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	17.9	2000.0	0.0	0.0	0.0
+
+
+Iteration 27:
+
+murA_lpxC_filtered_cluster0_iter27:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+5281 valid sequences out of 5281 
+724 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	18.8	1968.3	0.0	0.0	0.0
+
+
+murA_lpxC_filtered_cluster1_iter27:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+3021 valid sequences out of 3021 
+724 sites, none trimmed because no target specified
+Clustering..........
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	obj	|x|	|g|	crit
+1	19.4	1999.7	0.0	0.0	0.0
+
+
+Iteration 28:
+TERMINATING: Repeated cluster assignments

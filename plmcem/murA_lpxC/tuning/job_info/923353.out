@@ -1,0 +1,813 @@
+tuning/outputs/tuning_run_49/ created
+tuning/outputs/tuning_run_49/iterations/ created
+tuning/outputs/tuning_run_49/output/ created
+{'msa-file-name': 'murA_lpxC_filtered.fa', 'em_maxiter': 30, 'em_numclusters': 2, 'em_device': None, 'em_init': 'random', 'em_no_iter_print': 0, 'plmc': '../../plmc/bin/plmc', 'output': 'tuning/outputs/tuning_run_49', 'fast': 1, 'scale': None, 'theta': '2', 'lambdah': '0.01', 'lambdae': '16.0', 'lambdag': None, 'gapignore': 0, 'maxiter': '2', 'ncores': 6, 'gapignore_tune': '0', 'fast_tune': '1', 'em_iter_print': 1, 'iterations_dir': 'tuning/outputs/tuning_run_49/iterations/', 'final_dir': 'tuning/outputs/tuning_run_49/output/', 'output_dir': 'tuning/outputs/tuning_run_49/', 'plmc_options': ['-t 2', '-lh 0.01', '-le 16.0', '-m 2', '-n 6', '--fast'], 'device': device(type='cpu')}
+
+Using cpu
+
+
+Iteration 0:
+
+murA_lpxC_filtered_cluster0_iter0:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+4151 valid sequences out of 4151 
+724 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 4151.00)
+iter	time	obj	|x|	|g|	crit
+1	39.2	3804504.9	0.0	0.5	0.5
+2	63.5	3427055.9	0.0	0.8	0.8
+
+
+murA_lpxC_filtered_cluster1_iter0:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+4151 valid sequences out of 4151 
+724 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 4151.00)
+iter	time	obj	|x|	|g|	crit
+1	22.1	3839127.4	0.0	0.5	0.5
+2	40.1	3229766.0	0.0	0.8	0.8
+
+
+Iteration 1:
+
+murA_lpxC_filtered_cluster0_iter1:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+5115 valid sequences out of 5115 
+724 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 5115.00)
+iter	time	obj	|x|	|g|	crit
+1	38.5	4375618.5	0.0	0.6	0.6
+2	53.0	4021877.8	0.0	0.9	0.9
+
+
+murA_lpxC_filtered_cluster1_iter1:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+3187 valid sequences out of 3187 
+724 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 3187.00)
+iter	time	obj	|x|	|g|	crit
+1	22.2	3041369.7	0.0	0.5	0.5
+2	40.2	2338152.0	0.0	0.6	0.6
+
+
+Iteration 2:
+
+murA_lpxC_filtered_cluster0_iter2:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+5348 valid sequences out of 5348 
+724 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 5348.00)
+iter	time	obj	|x|	|g|	crit
+1	28.8	4392787.1	0.0	0.5	0.5
+2	48.2	4560261.7	0.0	1.0	1.0
+
+
+murA_lpxC_filtered_cluster1_iter2:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+2954 valid sequences out of 2954 
+724 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 2954.00)
+iter	time	obj	|x|	|g|	crit
+1	17.8	2699329.6	0.0	0.4	0.4
+2	38.7	2169979.8	0.0	0.6	0.6
+
+
+Iteration 3:
+
+murA_lpxC_filtered_cluster0_iter3:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+5284 valid sequences out of 5284 
+724 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 5284.00)
+iter	time	obj	|x|	|g|	crit
+1	35.3	4284636.2	0.0	0.5	0.5
+2	52.0	4233940.5	0.0	0.9	0.9
+
+
+murA_lpxC_filtered_cluster1_iter3:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+3018 valid sequences out of 3018 
+724 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 3018.00)
+iter	time	obj	|x|	|g|	crit
+1	20.1	2714383.3	0.0	0.4	0.4
+2	43.9	2114531.6	0.0	0.6	0.6
+
+
+Iteration 4:
+
+murA_lpxC_filtered_cluster0_iter4:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+5278 valid sequences out of 5278 
+724 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 5278.00)
+iter	time	obj	|x|	|g|	crit
+1	25.9	4314029.7	0.0	0.5	0.5
+2	43.6	4257743.1	0.0	1.0	1.0
+
+
+murA_lpxC_filtered_cluster1_iter4:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+3024 valid sequences out of 3024 
+724 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 3024.00)
+iter	time	obj	|x|	|g|	crit
+1	21.7	2718669.7	0.0	0.4	0.4
+2	45.2	2078841.8	0.0	0.6	0.6
+
+
+Iteration 5:
+
+murA_lpxC_filtered_cluster0_iter5:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+5237 valid sequences out of 5237 
+724 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 5237.00)
+iter	time	obj	|x|	|g|	crit
+1	19.6	4236566.3	0.0	0.5	0.5
+2	41.5	4148365.1	0.0	0.9	0.9
+
+
+murA_lpxC_filtered_cluster1_iter5:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+3065 valid sequences out of 3065 
+724 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 3065.00)
+iter	time	obj	|x|	|g|	crit
+1	30.0	2757011.9	0.0	0.5	0.5
+2	54.5	2163440.1	0.0	0.6	0.6
+
+
+Iteration 6:
+
+murA_lpxC_filtered_cluster0_iter6:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+5236 valid sequences out of 5236 
+724 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 5236.00)
+iter	time	obj	|x|	|g|	crit
+1	33.8	4229080.1	0.0	0.5	0.5
+2	50.8	4250939.9	0.0	0.9	0.9
+
+
+murA_lpxC_filtered_cluster1_iter6:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+3066 valid sequences out of 3066 
+724 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 3066.00)
+iter	time	obj	|x|	|g|	crit
+1	20.5	2764290.6	0.0	0.5	0.5
+2	36.1	2225601.0	0.0	0.6	0.6
+
+
+Iteration 7:
+
+murA_lpxC_filtered_cluster0_iter7:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+5238 valid sequences out of 5238 
+724 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 5238.00)
+iter	time	obj	|x|	|g|	crit
+1	27.0	4212669.9	0.0	0.5	0.5
+2	45.3	4483210.1	0.0	1.0	1.0
+
+
+murA_lpxC_filtered_cluster1_iter7:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+3064 valid sequences out of 3064 
+724 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 3064.00)
+iter	time	obj	|x|	|g|	crit
+1	19.6	2765837.3	0.0	0.5	0.5
+2	44.6	2169233.1	0.0	0.6	0.6
+
+
+Iteration 8:
+
+murA_lpxC_filtered_cluster0_iter8:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+5232 valid sequences out of 5232 
+724 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 5232.00)
+iter	time	obj	|x|	|g|	crit
+1	26.4	4208768.1	0.0	0.5	0.5
+2	42.2	4403564.4	0.0	0.9	0.9
+
+
+murA_lpxC_filtered_cluster1_iter8:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+3070 valid sequences out of 3070 
+724 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 3070.00)
+iter	time	obj	|x|	|g|	crit
+1	19.2	2746327.5	0.0	0.5	0.5
+2	44.9	2231739.0	0.0	0.6	0.6
+
+
+Iteration 9:
+
+murA_lpxC_filtered_cluster0_iter9:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+5225 valid sequences out of 5225 
+724 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 5225.00)
+iter	time	obj	|x|	|g|	crit
+1	27.1	4243057.4	0.0	0.5	0.5
+2	44.0	4202725.8	0.0	0.9	0.9
+
+
+murA_lpxC_filtered_cluster1_iter9:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+3077 valid sequences out of 3077 
+724 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 3077.00)
+iter	time	obj	|x|	|g|	crit
+1	20.2	2769259.3	0.0	0.5	0.5
+2	43.9	2191608.7	0.0	0.6	0.6
+
+
+Iteration 10:
+
+murA_lpxC_filtered_cluster0_iter10:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+5215 valid sequences out of 5215 
+724 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 5215.00)
+iter	time	obj	|x|	|g|	crit
+1	27.0	4218182.2	0.0	0.5	0.5
+2	44.7	4185314.8	0.0	0.9	0.9
+
+
+murA_lpxC_filtered_cluster1_iter10:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+3087 valid sequences out of 3087 
+724 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 3087.00)
+iter	time	obj	|x|	|g|	crit
+1	22.4	2764129.0	0.0	0.5	0.5
+2	47.9	2217359.4	0.0	0.6	0.6
+
+
+Iteration 11:
+
+murA_lpxC_filtered_cluster0_iter11:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+5233 valid sequences out of 5233 
+724 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 5233.00)
+iter	time	obj	|x|	|g|	crit
+1	29.0	4221071.5	0.0	0.5	0.5
+2	45.7	4185883.2	0.0	0.9	0.9
+
+
+murA_lpxC_filtered_cluster1_iter11:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+3069 valid sequences out of 3069 
+724 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 3069.00)
+iter	time	obj	|x|	|g|	crit
+1	20.0	2752005.7	0.0	0.5	0.5
+2	43.0	2161964.7	0.0	0.6	0.6
+
+
+Iteration 12:
+
+murA_lpxC_filtered_cluster0_iter12:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+5215 valid sequences out of 5215 
+724 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 5215.00)
+iter	time	obj	|x|	|g|	crit
+1	27.0	4226581.1	0.0	0.5	0.5
+2	43.7	4155118.8	0.0	0.9	0.9
+
+
+murA_lpxC_filtered_cluster1_iter12:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+3087 valid sequences out of 3087 
+724 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 3087.00)
+iter	time	obj	|x|	|g|	crit
+1	19.6	2786660.7	0.0	0.5	0.5
+2	45.5	2092708.0	0.0	0.6	0.6
+
+
+Iteration 13:
+
+murA_lpxC_filtered_cluster0_iter13:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+5191 valid sequences out of 5191 
+724 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 5191.00)
+iter	time	obj	|x|	|g|	crit
+1	27.1	4182019.9	0.0	0.5	0.5
+2	43.8	4225241.1	0.0	0.9	0.9
+
+
+murA_lpxC_filtered_cluster1_iter13:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+3111 valid sequences out of 3111 
+724 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 3111.00)
+iter	time	obj	|x|	|g|	crit
+1	19.2	2789001.2	0.0	0.5	0.5
+2	42.3	2151366.9	0.0	0.6	0.6
+
+
+Iteration 14:
+
+murA_lpxC_filtered_cluster0_iter14:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+5202 valid sequences out of 5202 
+724 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 5202.00)
+iter	time	obj	|x|	|g|	crit
+1	25.9	4212309.9	0.0	0.5	0.5
+2	45.2	4026476.5	0.0	0.9	0.9
+
+
+murA_lpxC_filtered_cluster1_iter14:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+3100 valid sequences out of 3100 
+724 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 3100.00)
+iter	time	obj	|x|	|g|	crit
+1	19.8	2788962.8	0.0	0.5	0.5
+2	43.2	2143178.4	0.0	0.6	0.6
+
+
+Iteration 15:
+
+murA_lpxC_filtered_cluster0_iter15:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+5218 valid sequences out of 5218 
+724 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 5218.00)
+iter	time	obj	|x|	|g|	crit
+1	27.1	4219495.0	0.0	0.5	0.5
+2	44.8	4129350.5	0.0	0.9	0.9
+
+
+murA_lpxC_filtered_cluster1_iter15:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+3084 valid sequences out of 3084 
+724 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 3084.00)
+iter	time	obj	|x|	|g|	crit
+1	21.4	2751369.0	0.0	0.5	0.5
+2	40.8	2138595.0	0.0	0.6	0.6
+
+
+Iteration 16:
+
+murA_lpxC_filtered_cluster0_iter16:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+5222 valid sequences out of 5222 
+724 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 5222.00)
+iter	time	obj	|x|	|g|	crit
+1	23.8	4286466.5	0.0	0.5	0.5
+2	41.5	3964482.0	0.0	0.9	0.9
+
+
+murA_lpxC_filtered_cluster1_iter16:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+3080 valid sequences out of 3080 
+724 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 3080.00)
+iter	time	obj	|x|	|g|	crit
+1	20.0	2755255.0	0.0	0.5	0.5
+2	45.0	2113563.1	0.0	0.6	0.6
+
+
+Iteration 17:
+
+murA_lpxC_filtered_cluster0_iter17:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+5248 valid sequences out of 5248 
+724 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 5248.00)
+iter	time	obj	|x|	|g|	crit
+1	21.7	4284108.5	0.0	0.5	0.5
+2	42.9	3975869.4	0.0	0.9	0.9
+
+
+murA_lpxC_filtered_cluster1_iter17:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+3054 valid sequences out of 3054 
+724 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 3054.00)
+iter	time	obj	|x|	|g|	crit
+1	23.2	2705019.4	0.0	0.5	0.5
+2	46.0	2185229.0	0.0	0.6	0.6
+
+
+Iteration 18:
+
+murA_lpxC_filtered_cluster0_iter18:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+5293 valid sequences out of 5293 
+724 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 5293.00)
+iter	time	obj	|x|	|g|	crit
+1	27.1	4326353.8	0.0	0.5	0.5
+2	43.0	4164509.5	0.0	0.9	0.9
+
+
+murA_lpxC_filtered_cluster1_iter18:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+3009 valid sequences out of 3009 
+724 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 3009.00)
+iter	time	obj	|x|	|g|	crit
+1	18.5	2671583.1	0.0	0.5	0.5
+2	43.1	2087103.1	0.0	0.6	0.6
+
+
+Iteration 19:
+
+murA_lpxC_filtered_cluster0_iter19:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+5275 valid sequences out of 5275 
+724 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 5275.00)
+iter	time	obj	|x|	|g|	crit
+1	26.5	4280801.8	0.0	0.5	0.5
+2	42.5	4506156.5	0.0	1.0	1.0
+
+
+murA_lpxC_filtered_cluster1_iter19:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+3027 valid sequences out of 3027 
+724 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 3027.00)
+iter	time	obj	|x|	|g|	crit
+1	21.4	2688776.0	0.0	0.5	0.5
+2	43.3	2080145.1	0.0	0.6	0.6
+
+
+Iteration 20:
+
+murA_lpxC_filtered_cluster0_iter20:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+5226 valid sequences out of 5226 
+724 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 5226.00)
+iter	time	obj	|x|	|g|	crit
+1	28.3	4268974.5	0.0	0.5	0.5
+2	44.4	4318109.0	0.0	1.0	1.0
+
+
+murA_lpxC_filtered_cluster1_iter20:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+3076 valid sequences out of 3076 
+724 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 3076.00)
+iter	time	obj	|x|	|g|	crit
+1	18.6	2752161.5	0.0	0.5	0.5
+2	43.7	2163873.6	0.0	0.6	0.6
+
+
+Iteration 21:
+
+murA_lpxC_filtered_cluster0_iter21:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+5186 valid sequences out of 5186 
+724 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 5186.00)
+iter	time	obj	|x|	|g|	crit
+1	24.0	4200950.2	0.0	0.5	0.5
+2	43.0	4156429.2	0.0	0.9	0.9
+
+
+murA_lpxC_filtered_cluster1_iter21:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+3116 valid sequences out of 3116 
+724 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 3116.00)
+iter	time	obj	|x|	|g|	crit
+1	20.6	2791055.6	0.0	0.5	0.5
+2	43.9	2263431.8	0.0	0.6	0.6
+
+
+Iteration 22:
+
+murA_lpxC_filtered_cluster0_iter22:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+5247 valid sequences out of 5247 
+724 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 5247.00)
+iter	time	obj	|x|	|g|	crit
+1	21.2	4253548.9	0.0	0.5	0.5
+2	35.6	4274318.9	0.0	0.9	0.9
+
+
+murA_lpxC_filtered_cluster1_iter22:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+3055 valid sequences out of 3055 
+724 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 3055.00)
+iter	time	obj	|x|	|g|	crit
+1	19.3	2755339.8	0.0	0.5	0.5
+2	36.9	2042815.9	0.0	0.6	0.6
+
+
+Iteration 23:
+
+murA_lpxC_filtered_cluster0_iter23:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+5250 valid sequences out of 5250 
+724 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 5250.00)
+iter	time	obj	|x|	|g|	crit
+1	26.4	4297805.2	0.0	0.5	0.5
+2	42.4	4035358.3	0.0	0.9	0.9
+
+
+murA_lpxC_filtered_cluster1_iter23:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+3052 valid sequences out of 3052 
+724 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 3052.00)
+iter	time	obj	|x|	|g|	crit
+1	20.1	2746395.7	0.0	0.5	0.5
+2	41.9	2083583.8	0.0	0.6	0.6
+
+
+Iteration 24:
+
+murA_lpxC_filtered_cluster0_iter24:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+5251 valid sequences out of 5251 
+724 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 5251.00)
+iter	time	obj	|x|	|g|	crit
+1	27.3	4288676.7	0.0	0.5	0.5
+2	47.0	4099167.0	0.0	0.9	0.9
+
+
+murA_lpxC_filtered_cluster1_iter24:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+3051 valid sequences out of 3051 
+724 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 3051.00)
+iter	time	obj	|x|	|g|	crit
+1	19.4	2723441.5	0.0	0.5	0.5
+2	42.0	2124698.6	0.0	0.6	0.6
+
+
+Iteration 25:
+
+murA_lpxC_filtered_cluster0_iter25:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+5258 valid sequences out of 5258 
+724 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 5258.00)
+iter	time	obj	|x|	|g|	crit
+1	24.1	4306876.9	0.0	0.5	0.5
+2	41.7	4059322.7	0.0	0.9	0.9
+
+
+murA_lpxC_filtered_cluster1_iter25:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+3044 valid sequences out of 3044 
+724 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 3044.00)
+iter	time	obj	|x|	|g|	crit
+1	22.9	2717681.3	0.0	0.5	0.5
+2	45.7	2121047.9	0.0	0.6	0.6
+
+
+Iteration 26:
+
+murA_lpxC_filtered_cluster0_iter26:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+5280 valid sequences out of 5280 
+724 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 5280.00)
+iter	time	obj	|x|	|g|	crit
+1	28.0	4312896.6	0.0	0.5	0.5
+2	45.8	4157007.0	0.0	0.9	0.9
+
+
+murA_lpxC_filtered_cluster1_iter26:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+3022 valid sequences out of 3022 
+724 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 3022.00)
+iter	time	obj	|x|	|g|	crit
+1	20.4	2698223.3	0.0	0.5	0.5
+2	44.7	2089812.6	0.0	0.6	0.6
+
+
+Iteration 27:
+
+murA_lpxC_filtered_cluster0_iter27:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+5266 valid sequences out of 5266 
+724 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 5266.00)
+iter	time	obj	|x|	|g|	crit
+1	19.8	4309538.1	0.0	0.5	0.5
+2	41.7	4121059.9	0.0	0.9	0.9
+
+
+murA_lpxC_filtered_cluster1_iter27:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+3036 valid sequences out of 3036 
+724 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 3036.00)
+iter	time	obj	|x|	|g|	crit
+1	25.9	2723176.4	0.0	0.5	0.5
+2	47.6	2063695.8	0.0	0.6	0.6
+
+
+Iteration 28:
+
+murA_lpxC_filtered_cluster0_iter28:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+5283 valid sequences out of 5283 
+724 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 5283.00)
+iter	time	obj	|x|	|g|	crit
+1	25.3	4346360.3	0.0	0.5	0.5
+2	42.8	4174363.4	0.0	0.9	0.9
+
+
+murA_lpxC_filtered_cluster1_iter28:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+3019 valid sequences out of 3019 
+724 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 3019.00)
+iter	time	obj	|x|	|g|	crit
+1	20.7	2689986.8	0.0	0.5	0.5
+2	45.0	2089762.7	0.0	0.6	0.6
+
+
+Iteration 29:
+
+murA_lpxC_filtered_cluster0_iter29:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+5265 valid sequences out of 5265 
+724 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 5265.00)
+iter	time	obj	|x|	|g|	crit
+1	29.5	4304028.9	0.0	0.5	0.5
+2	51.8	4126765.6	0.0	0.9	0.9
+
+
+murA_lpxC_filtered_cluster1_iter29:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+3037 valid sequences out of 3037 
+724 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 3037.00)
+iter	time	obj	|x|	|g|	crit
+1	26.6	2716889.7	0.0	0.5	0.5
+2	52.8	2079631.6	0.0	0.6	0.6
+
+
+Iteration 30:
+
+murA_lpxC_filtered_cluster0_iter30:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+5261 valid sequences out of 5261 
+724 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 5261.00)
+iter	time	obj	|x|	|g|	crit
+1	25.8	4345790.9	0.0	0.5	0.5
+2	42.4	3858212.4	0.0	0.9	0.9
+
+
+murA_lpxC_filtered_cluster1_iter30:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+3041 valid sequences out of 3041 
+724 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 3041.00)
+iter	time	obj	|x|	|g|	crit
+1	20.6	2730737.5	0.0	0.5	0.5
+2	39.8	2073700.9	0.0	0.6	0.6
+

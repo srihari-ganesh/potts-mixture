@@ -1,0 +1,31 @@
+/home/srg990/.conda/envs/srihari_base/lib/python3.10/site-packages/Bio/pairwise2.py:278: BiopythonDeprecationWarning: Bio.pairwise2 has been deprecated, and we intend to remove it in a future release of Biopython. As an alternative, please consider using Bio.Align.PairwiseAligner as a replacement, and contact the Biopython developers if you still need the Bio.pairwise2 module.
+  warnings.warn(
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/home/srg990/.conda/envs/srihari_base/lib/python3.10/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "/home/srg990/.conda/envs/srihari_base/lib/python3.10/multiprocessing/pool.py", line 48, in mapstar
+    return list(map(*args))
+  File "/n/groups/marks/users/srihari/potts-mixture/plmcem/murA_lpxC/plmcem.py", line 259, in run_plmc
+    ans = subprocess.run(' '.join(command), shell = True, check = True, capture_output = True, universal_newlines = True).stderr
+  File "/home/srg990/.conda/envs/srihari_base/lib/python3.10/subprocess.py", line 524, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '../../plmc/bin/plmc -o tuning/outputs/tuning_run_7/iterations/murA_lpxC_filtered_cluster0_iter0.params -t 0.8 -lh 0.01 -le 16.0 -m 5 -n 6 -g tuning/outputs/tuning_run_7/iterations/murA_lpxC_filtered_cluster0_iter0.fa' died with <Signals.SIGKILL: 9>.
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/n/groups/marks/users/srihari/potts-mixture/plmcem/murA_lpxC/plmcem.py", line 476, in <module>
+    main(config)
+  File "/n/groups/marks/users/srihari/potts-mixture/plmcem/murA_lpxC/plmcem.py", line 52, in main
+    run_em(config)
+  File "/n/groups/marks/users/srihari/potts-mixture/plmcem/murA_lpxC/plmcem.py", line 434, in run_em
+    param_file_names = run_plmcs(cluster_names, config)
+  File "/n/groups/marks/users/srihari/potts-mixture/plmcem/murA_lpxC/plmcem.py", line 273, in run_plmcs
+    ans = pool.map_async(run_plmc, args).get()
+  File "/home/srg990/.conda/envs/srihari_base/lib/python3.10/multiprocessing/pool.py", line 771, in get
+    raise self._value
+subprocess.CalledProcessError: Command '../../plmc/bin/plmc -o tuning/outputs/tuning_run_7/iterations/murA_lpxC_filtered_cluster0_iter0.params -t 0.8 -lh 0.01 -le 16.0 -m 5 -n 6 -g tuning/outputs/tuning_run_7/iterations/murA_lpxC_filtered_cluster0_iter0.fa' died with <Signals.SIGKILL: 9>.
+slurmstepd: error: Detected 7 oom-kill event(s) in StepId=923269.batch. Some of your processes may have been killed by the cgroup out-of-memory handler.

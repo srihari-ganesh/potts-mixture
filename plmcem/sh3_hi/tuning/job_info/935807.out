@@ -1,0 +1,430 @@
+tuning/outputs/tuning_run_25/ created
+tuning/outputs/tuning_run_25/iterations/ created
+tuning/outputs/tuning_run_25/output/ created
+{'msa-file-name': 'sh3_hi_sampled_seqs.fa', 'em_maxiter': 30, 'em_numclusters': 2, 'em_device': None, 'em_init': 'random', 'em_no_iter_print': 0, 'plmc': '../../plmc/bin/plmc', 'output': 'tuning/outputs/tuning_run_25', 'fast': 1, 'scale': None, 'theta': '2', 'lambdah': '0.01', 'lambdae': '16.0', 'lambdag': None, 'gapignore': 1, 'maxiter': '10', 'ncores': 6, 'gapignore_tune': '1', 'fast_tune': '1', 'em_iter_print': 1, 'iterations_dir': 'tuning/outputs/tuning_run_25/iterations/', 'final_dir': 'tuning/outputs/tuning_run_25/output/', 'output_dir': 'tuning/outputs/tuning_run_25/', 'plmc_options': ['-t 2', '-lh 0.01', '-le 16.0', '-m 10', '-n 6', '-g', '--fast'], 'device': device(type='cpu')}
+
+Using cpu
+
+
+Iteration 0:
+
+sh3_hi_sampled_seqs_cluster0_iter0:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+1000 valid sequences out of 1000 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 1000.00)
+iter	time	obj	|x|	|g|	crit
+1	0.1	73740.8	0.0	0.1	0.1
+2	0.3	71389.4	0.0	0.2	0.2
+3	0.3	69326.6	0.0	0.3	0.3
+4	0.5	67464.8	0.0	0.3	0.3
+5	0.6	65797.1	0.0	0.3	0.3
+6	0.7	64737.2	0.0	0.4	0.4
+7	0.8	63723.7	0.0	0.4	0.4
+8	1.0	62642.5	0.0	0.4	0.4
+9	1.1	61994.9	0.0	0.4	0.4
+10	1.1	61316.1	0.0	0.3	0.3
+
+
+sh3_hi_sampled_seqs_cluster1_iter0:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+1000 valid sequences out of 1000 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 1000.00)
+iter	time	obj	|x|	|g|	crit
+1	0.1	74073.1	0.0	0.1	0.1
+2	0.2	71798.2	0.0	0.2	0.2
+3	0.3	69289.1	0.0	0.3	0.3
+4	0.3	67189.2	0.0	0.3	0.3
+5	0.4	65906.2	0.0	0.3	0.3
+6	0.6	64612.9	0.0	0.4	0.4
+7	0.7	63693.2	0.0	0.4	0.4
+8	0.8	62606.5	0.0	0.4	0.4
+9	0.9	62021.3	0.0	0.4	0.4
+10	1.0	61345.2	0.0	0.4	0.4
+
+
+Iteration 1:
+
+sh3_hi_sampled_seqs_cluster0_iter1:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+1000 valid sequences out of 1000 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 1000.00)
+iter	time	obj	|x|	|g|	crit
+1	0.3	73711.6	0.0	0.1	0.1
+2	0.4	71569.5	0.0	0.2	0.2
+3	0.5	69377.0	0.0	0.3	0.3
+4	0.6	67367.0	0.0	0.3	0.3
+5	0.7	66031.9	0.0	0.3	0.3
+6	0.8	64822.0	0.0	0.4	0.4
+7	0.9	63556.6	0.0	0.4	0.4
+8	1.0	62612.7	0.0	0.4	0.4
+9	1.1	62057.5	0.0	0.4	0.4
+10	1.2	61489.2	0.0	0.3	0.3
+
+
+sh3_hi_sampled_seqs_cluster1_iter1:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+1000 valid sequences out of 1000 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 1000.00)
+iter	time	obj	|x|	|g|	crit
+1	0.3	74282.7	0.0	0.1	0.1
+2	0.4	71828.2	0.0	0.2	0.2
+3	0.5	69289.4	0.0	0.3	0.3
+4	0.6	67553.8	0.0	0.3	0.3
+5	0.7	66058.3	0.0	0.3	0.3
+6	0.7	64906.0	0.0	0.4	0.4
+7	0.8	63687.9	0.0	0.4	0.4
+8	0.9	62788.8	0.0	0.4	0.4
+9	1.0	62101.8	0.0	0.4	0.4
+10	1.0	61335.7	0.0	0.4	0.4
+
+
+Iteration 2:
+
+sh3_hi_sampled_seqs_cluster0_iter2:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+1001 valid sequences out of 1001 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 1001.00)
+iter	time	obj	|x|	|g|	crit
+1	0.2	73961.7	0.0	0.1	0.1
+2	0.2	71450.0	0.0	0.2	0.2
+3	0.3	69386.6	0.0	0.3	0.3
+4	0.4	67415.0	0.0	0.3	0.3
+5	0.5	66175.4	0.0	0.3	0.3
+6	0.6	64971.7	0.0	0.4	0.4
+7	0.7	63693.6	0.0	0.4	0.4
+8	0.8	62727.3	0.0	0.4	0.4
+9	0.8	62031.8	0.0	0.4	0.4
+10	0.9	61652.3	0.0	0.3	0.3
+
+
+sh3_hi_sampled_seqs_cluster1_iter2:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+999 valid sequences out of 999 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 999.00)
+iter	time	obj	|x|	|g|	crit
+1	0.1	73959.7	0.0	0.1	0.1
+2	0.2	71632.2	0.0	0.2	0.2
+3	0.3	69364.7	0.0	0.3	0.3
+4	0.4	67421.0	0.0	0.3	0.3
+5	0.5	66089.0	0.0	0.3	0.3
+6	0.6	64639.7	0.0	0.4	0.4
+7	0.7	63610.9	0.0	0.4	0.4
+8	0.7	62726.6	0.0	0.4	0.4
+9	0.8	61976.1	0.0	0.4	0.4
+10	0.9	61374.3	0.0	0.4	0.4
+
+
+Iteration 3:
+
+sh3_hi_sampled_seqs_cluster0_iter3:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+1002 valid sequences out of 1002 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 1002.00)
+iter	time	obj	|x|	|g|	crit
+1	0.2	73902.1	0.0	0.1	0.1
+2	0.2	71572.9	0.0	0.2	0.2
+3	0.3	69379.1	0.0	0.3	0.3
+4	0.5	67455.0	0.0	0.3	0.3
+5	0.6	66227.7	0.0	0.3	0.3
+6	0.7	65024.4	0.0	0.4	0.4
+7	0.8	63680.2	0.0	0.4	0.4
+8	0.9	62826.5	0.0	0.4	0.4
+9	0.9	62089.3	0.0	0.4	0.4
+10	1.0	61569.6	0.0	0.3	0.3
+
+
+sh3_hi_sampled_seqs_cluster1_iter3:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+998 valid sequences out of 998 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 998.00)
+iter	time	obj	|x|	|g|	crit
+1	0.1	74080.6	0.0	0.1	0.1
+2	0.2	71433.3	0.0	0.2	0.2
+3	0.3	69261.6	0.0	0.3	0.3
+4	0.3	67329.7	0.0	0.3	0.3
+5	0.4	65864.5	0.0	0.3	0.3
+6	0.5	64717.0	0.0	0.4	0.4
+7	0.5	63636.2	0.0	0.4	0.4
+8	0.6	62557.4	0.0	0.4	0.4
+9	0.6	61884.6	0.0	0.4	0.4
+10	0.7	61381.0	0.0	0.4	0.4
+
+
+Iteration 4:
+
+sh3_hi_sampled_seqs_cluster0_iter4:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+1001 valid sequences out of 1001 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 1001.00)
+iter	time	obj	|x|	|g|	crit
+1	0.2	73818.3	0.0	0.1	0.1
+2	0.3	71461.2	0.0	0.2	0.2
+3	0.4	69242.5	0.0	0.3	0.3
+4	0.5	67442.4	0.0	0.3	0.3
+5	0.6	66077.6	0.0	0.3	0.3
+6	0.6	64808.0	0.0	0.4	0.4
+7	0.8	63559.1	0.0	0.4	0.4
+8	0.9	62683.1	0.0	0.4	0.4
+9	1.0	61963.9	0.0	0.4	0.4
+10	1.1	61503.4	0.0	0.3	0.3
+
+
+sh3_hi_sampled_seqs_cluster1_iter4:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+999 valid sequences out of 999 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 999.00)
+iter	time	obj	|x|	|g|	crit
+1	0.2	73947.1	0.0	0.1	0.1
+2	0.3	71503.0	0.0	0.2	0.2
+3	0.4	69334.5	0.0	0.3	0.3
+4	0.5	67636.4	0.0	0.3	0.3
+5	0.7	66110.0	0.0	0.3	0.3
+6	0.8	64851.7	0.0	0.4	0.4
+7	0.9	63711.6	0.0	0.4	0.4
+8	1.0	62585.5	0.0	0.4	0.4
+9	1.1	62142.7	0.0	0.4	0.4
+10	1.1	61270.7	0.0	0.4	0.4
+
+
+Iteration 5:
+
+sh3_hi_sampled_seqs_cluster0_iter5:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+1001 valid sequences out of 1001 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 1001.00)
+iter	time	obj	|x|	|g|	crit
+1	0.2	73901.5	0.0	0.1	0.1
+2	0.3	71664.9	0.0	0.2	0.2
+3	0.3	69167.8	0.0	0.3	0.3
+4	0.4	67384.6	0.0	0.3	0.3
+5	0.5	66115.4	0.0	0.3	0.3
+6	0.5	64841.3	0.0	0.4	0.4
+7	0.6	63437.3	0.0	0.4	0.4
+8	0.6	62825.6	0.0	0.4	0.4
+9	0.7	62071.0	0.0	0.4	0.4
+10	0.8	61500.0	0.0	0.3	0.3
+
+
+sh3_hi_sampled_seqs_cluster1_iter5:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+999 valid sequences out of 999 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 999.00)
+iter	time	obj	|x|	|g|	crit
+1	0.1	73942.1	0.0	0.1	0.1
+2	0.2	71454.6	0.0	0.2	0.2
+3	0.2	69460.3	0.0	0.3	0.3
+4	0.3	67502.4	0.0	0.3	0.3
+5	0.4	66093.8	0.0	0.3	0.3
+6	0.5	64782.9	0.0	0.4	0.4
+7	0.6	63657.8	0.0	0.4	0.4
+8	0.7	62565.8	0.0	0.4	0.4
+9	0.8	62027.5	0.0	0.4	0.4
+10	0.9	61313.3	0.0	0.4	0.4
+
+
+Iteration 6:
+
+sh3_hi_sampled_seqs_cluster0_iter6:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+1004 valid sequences out of 1004 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 1004.00)
+iter	time	obj	|x|	|g|	crit
+1	0.2	74044.1	0.0	0.1	0.1
+2	0.3	71808.1	0.0	0.2	0.2
+3	0.4	69502.2	0.0	0.3	0.3
+4	0.5	67439.6	0.0	0.3	0.3
+5	0.6	66386.3	0.0	0.3	0.3
+6	0.7	65060.9	0.0	0.4	0.4
+7	0.8	63521.4	0.0	0.4	0.4
+8	0.9	63016.2	0.0	0.4	0.4
+9	1.0	62337.1	0.0	0.4	0.4
+10	1.0	61763.0	0.0	0.4	0.4
+
+
+sh3_hi_sampled_seqs_cluster1_iter6:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+996 valid sequences out of 996 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 996.00)
+iter	time	obj	|x|	|g|	crit
+1	0.2	73856.9	0.0	0.1	0.1
+2	0.3	71185.5	0.0	0.2	0.2
+3	0.4	69072.0	0.0	0.3	0.3
+4	0.5	66996.9	0.0	0.3	0.3
+5	0.6	65908.7	0.0	0.3	0.3
+6	0.6	64402.0	0.0	0.4	0.4
+7	0.7	63364.0	0.0	0.4	0.4
+8	0.8	62436.9	0.0	0.4	0.4
+9	0.8	61761.8	0.0	0.4	0.4
+10	0.9	61045.4	0.0	0.4	0.4
+
+
+Iteration 7:
+
+sh3_hi_sampled_seqs_cluster0_iter7:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+1003 valid sequences out of 1003 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 1003.00)
+iter	time	obj	|x|	|g|	crit
+1	0.2	74014.9	0.0	0.1	0.1
+2	0.2	71634.6	0.0	0.2	0.2
+3	0.3	69539.4	0.0	0.3	0.3
+4	0.4	67487.2	0.0	0.3	0.3
+5	0.5	66259.9	0.0	0.3	0.3
+6	0.6	64969.9	0.0	0.4	0.4
+7	0.7	63609.6	0.0	0.4	0.4
+8	0.8	62843.2	0.0	0.4	0.4
+9	1.0	62297.8	0.0	0.4	0.4
+10	1.1	61576.8	0.0	0.3	0.3
+
+
+sh3_hi_sampled_seqs_cluster1_iter7:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+997 valid sequences out of 997 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 997.00)
+iter	time	obj	|x|	|g|	crit
+1	0.1	73869.6	0.0	0.1	0.1
+2	0.2	71343.6	0.0	0.2	0.2
+3	0.3	69116.6	0.0	0.3	0.3
+4	0.4	67158.4	0.0	0.3	0.3
+5	0.5	65904.4	0.0	0.3	0.3
+6	0.6	64571.2	0.0	0.4	0.4
+7	0.7	63399.5	0.0	0.4	0.4
+8	0.8	62550.4	0.0	0.4	0.4
+9	0.9	61820.4	0.0	0.4	0.4
+10	1.0	61041.6	0.0	0.4	0.4
+
+
+Iteration 8:
+
+sh3_hi_sampled_seqs_cluster0_iter8:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+1004 valid sequences out of 1004 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 1004.00)
+iter	time	obj	|x|	|g|	crit
+1	0.2	74128.7	0.0	0.1	0.1
+2	0.3	71799.4	0.0	0.2	0.2
+3	0.4	69543.3	0.0	0.3	0.3
+4	0.5	67438.8	0.0	0.3	0.3
+5	0.6	66316.6	0.0	0.3	0.3
+6	0.7	64956.9	0.0	0.4	0.4
+7	0.8	63556.0	0.0	0.4	0.4
+8	0.9	62948.1	0.0	0.4	0.4
+9	1.0	62509.6	0.0	0.4	0.4
+10	1.1	61822.8	0.0	0.4	0.4
+
+
+sh3_hi_sampled_seqs_cluster1_iter8:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+996 valid sequences out of 996 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 996.00)
+iter	time	obj	|x|	|g|	crit
+1	0.1	73787.5	0.0	0.1	0.1
+2	0.2	71176.0	0.0	0.2	0.2
+3	0.3	68939.1	0.0	0.3	0.3
+4	0.4	67041.0	0.0	0.3	0.3
+5	0.5	65894.9	0.0	0.3	0.3
+6	0.6	64417.2	0.0	0.4	0.4
+7	0.7	63391.2	0.0	0.4	0.4
+8	0.8	62478.4	0.0	0.4	0.4
+9	0.9	61779.3	0.0	0.4	0.4
+10	1.0	61005.0	0.0	0.4	0.4
+
+
+Iteration 9:
+
+sh3_hi_sampled_seqs_cluster0_iter9:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+1003 valid sequences out of 1003 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 1003.00)
+iter	time	obj	|x|	|g|	crit
+1	0.2	73932.9	0.0	0.1	0.1
+2	0.3	71596.4	0.0	0.2	0.2
+3	0.4	69480.8	0.0	0.3	0.3
+4	0.5	67429.9	0.0	0.3	0.3
+5	0.6	66194.4	0.0	0.3	0.3
+6	0.7	64903.8	0.0	0.4	0.4
+7	0.8	63674.9	0.0	0.4	0.4
+8	1.0	62867.7	0.0	0.4	0.4
+9	1.1	62257.1	0.0	0.4	0.4
+10	1.1	61567.4	0.0	0.3	0.3
+
+
+sh3_hi_sampled_seqs_cluster1_iter9:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+997 valid sequences out of 997 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 997.00)
+iter	time	obj	|x|	|g|	crit
+1	0.2	73819.6	0.0	0.1	0.1
+2	0.3	71266.2	0.0	0.2	0.2
+3	0.4	69067.8	0.0	0.3	0.3
+4	0.4	67158.3	0.0	0.3	0.3
+5	0.5	65903.9	0.0	0.3	0.3
+6	0.6	64535.1	0.0	0.4	0.4
+7	0.7	63326.0	0.0	0.4	0.4
+8	0.8	62609.8	0.0	0.4	0.4
+9	1.0	61782.2	0.0	0.4	0.4
+10	1.0	61098.1	0.0	0.4	0.4
+
+
+Iteration 10:
+TERMINATING: Repeated cluster assignments

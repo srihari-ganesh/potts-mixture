@@ -1,0 +1,138 @@
+tuning/outputs/tuning_run_63/ created
+tuning/outputs/tuning_run_63/iterations/ created
+tuning/outputs/tuning_run_63/output/ created
+{'msa-file-name': 'sh3_hi_sampled_seqs.fa', 'em_maxiter': 30, 'em_numclusters': 2, 'em_device': None, 'em_init': 'random', 'em_no_iter_print': 0, 'plmc': '../../plmc/bin/plmc', 'output': 'tuning/outputs/tuning_run_63', 'fast': 0, 'scale': None, 'theta': '2', 'lambdah': '0.01', 'lambdae': '16.0', 'lambdag': None, 'gapignore': 0, 'maxiter': '20', 'ncores': 6, 'gapignore_tune': '0', 'fast_tune': '0', 'em_iter_print': 1, 'iterations_dir': 'tuning/outputs/tuning_run_63/iterations/', 'final_dir': 'tuning/outputs/tuning_run_63/output/', 'output_dir': 'tuning/outputs/tuning_run_63/', 'plmc_options': ['-t 2', '-lh 0.01', '-le 16.0', '-m 20', '-n 6'], 'device': device(type='cpu')}
+
+Using cpu
+
+
+Iteration 0:
+
+sh3_hi_sampled_seqs_cluster0_iter0:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+1000 valid sequences out of 1000 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 1000.00)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	0.1	34.73	72133.7	72095.7	46.9	1.0
+2	0.2	74.45	67055.7	65781.4	47.0	8.8
+3	0.2	44.31	64490.9	61850.8	47.1	12.8
+4	0.3	29.99	63566.8	60862.7	47.0	12.9
+5	0.3	33.59	62218.7	59066.6	47.0	14.0
+6	0.4	32.40	61096.7	57106.3	47.0	15.7
+7	0.4	41.30	60006.3	52973.3	47.1	20.9
+8	0.5	18.13	59112.1	51820.1	47.1	21.3
+9	0.6	13.13	58869.1	52005.6	47.1	20.7
+10	0.6	11.06	58412.2	51722.2	47.1	20.4
+11	0.7	18.62	58073.6	50716.8	47.1	21.4
+12	0.7	10.98	57851.6	49714.4	47.1	22.5
+13	0.8	5.96	57755.5	49339.0	47.1	22.9
+14	0.9	5.19	57684.2	48953.4	47.1	23.3
+15	1.0	7.16	57613.8	48651.0	47.2	23.6
+16	1.0	6.34	57545.2	48341.8	47.2	24.0
+17	1.1	4.55	57508.1	48354.5	47.2	23.9
+18	1.1	3.04	57489.3	48436.9	47.2	23.8
+19	1.2	2.44	57472.5	48494.8	47.2	23.7
+20	1.3	4.05	57461.4	48475.8	47.2	23.7
+Gradient optimization: MAXIMUMITERATION
+
+
+sh3_hi_sampled_seqs_cluster1_iter0:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+1000 valid sequences out of 1000 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 1000.00)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	0.1	34.44	72530.8	72492.6	47.2	1.0
+2	0.2	88.57	67898.4	66438.6	47.3	9.5
+3	0.3	39.29	64739.8	62103.4	47.3	12.8
+4	0.3	28.55	63936.4	61292.0	47.3	12.8
+5	0.4	33.52	62437.6	59363.1	47.3	13.8
+6	0.5	30.62	61257.1	57278.2	47.3	15.7
+7	0.6	46.24	60470.3	53300.3	47.3	21.1
+8	0.7	16.05	59424.2	52125.2	47.4	21.3
+9	0.7	12.40	59189.6	52195.7	47.4	20.9
+10	0.8	12.39	58733.2	51820.1	47.4	20.8
+11	0.9	22.65	58460.6	50699.1	47.4	22.0
+12	1.0	8.66	58187.4	49955.7	47.4	22.7
+13	1.1	5.93	58098.2	49529.1	47.4	23.1
+14	1.2	5.76	58023.5	49135.6	47.4	23.5
+15	1.3	15.81	57987.0	48805.0	47.5	23.9
+16	1.3	5.04	57894.6	48733.9	47.5	23.9
+17	1.4	3.62	57863.5	48798.4	47.5	23.8
+18	1.4	3.79	57833.3	48823.7	47.5	23.7
+19	1.5	4.16	57800.9	48760.6	47.5	23.7
+20	1.5	6.11	57798.2	48714.6	47.6	23.8
+Gradient optimization: MAXIMUMITERATION
+
+
+Iteration 1:
+
+sh3_hi_sampled_seqs_cluster0_iter1:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+1000 valid sequences out of 1000 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 1000.00)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	0.2	34.73	72133.7	72095.7	46.9	1.0
+2	0.3	74.45	67055.7	65781.4	47.0	8.8
+3	0.4	44.31	64490.9	61850.8	47.1	12.8
+4	0.4	29.99	63566.8	60862.7	47.0	12.9
+5	0.5	33.59	62218.7	59066.6	47.0	14.0
+6	0.6	32.40	61096.7	57106.3	47.0	15.7
+7	0.7	41.30	60006.3	52973.3	47.1	20.9
+8	0.8	18.13	59112.1	51820.1	47.1	21.3
+9	0.9	13.13	58869.1	52005.6	47.1	20.7
+10	1.0	11.06	58412.2	51722.2	47.1	20.4
+11	1.1	18.62	58073.6	50716.8	47.1	21.4
+12	1.2	10.98	57851.6	49714.4	47.1	22.5
+13	1.2	5.96	57755.5	49339.0	47.1	22.9
+14	1.3	5.19	57684.2	48953.4	47.1	23.3
+15	1.4	7.16	57613.8	48651.0	47.2	23.6
+16	1.5	6.34	57545.2	48341.8	47.2	24.0
+17	1.6	4.55	57508.1	48354.5	47.2	23.9
+18	1.6	3.04	57489.3	48436.9	47.2	23.8
+19	1.7	2.44	57472.5	48494.8	47.2	23.7
+20	1.8	4.05	57461.4	48475.8	47.2	23.7
+Gradient optimization: MAXIMUMITERATION
+
+
+sh3_hi_sampled_seqs_cluster1_iter1:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+1000 valid sequences out of 1000 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 1000.00)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	0.2	34.44	72530.8	72492.6	47.2	1.0
+2	0.3	88.57	67898.4	66438.6	47.3	9.5
+3	0.4	39.29	64739.8	62103.4	47.3	12.8
+4	0.4	28.55	63936.4	61292.0	47.3	12.8
+5	0.5	33.52	62437.6	59363.1	47.3	13.8
+6	0.6	30.62	61257.1	57278.2	47.3	15.7
+7	0.7	46.24	60470.3	53300.3	47.3	21.1
+8	0.8	16.05	59424.2	52125.2	47.4	21.3
+9	0.9	12.40	59189.6	52195.7	47.4	20.9
+10	1.0	12.39	58733.2	51820.1	47.4	20.8
+11	1.1	22.65	58460.6	50699.1	47.4	22.0
+12	1.2	8.66	58187.4	49955.7	47.4	22.7
+13	1.2	5.93	58098.2	49529.1	47.4	23.1
+14	1.3	5.76	58023.5	49135.6	47.4	23.5
+15	1.4	15.81	57987.0	48805.0	47.5	23.9
+16	1.5	5.04	57894.6	48733.9	47.5	23.9
+17	1.5	3.62	57863.5	48798.4	47.5	23.8
+18	1.6	3.79	57833.3	48823.7	47.5	23.7
+19	1.7	4.16	57800.9	48760.6	47.5	23.7
+20	1.7	6.11	57798.2	48714.6	47.6	23.8
+Gradient optimization: MAXIMUMITERATION
+
+
+Iteration 2:
+TERMINATING: Repeated cluster assignments

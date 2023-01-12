@@ -1,0 +1,52 @@
+tuning/outputs/tuning_run_56/ created
+tuning/outputs/tuning_run_56/iterations/ created
+tuning/outputs/tuning_run_56/output/ created
+{'msa-file-name': 'sh3_pdz_combined.fa', 'em_maxiter': 30, 'em_numclusters': 2, 'em_device': None, 'em_init': 'kmeans', 'em_no_iter_print': 0, 'plmc': '../../plmc/bin/plmc', 'output': 'tuning/outputs/tuning_run_56', 'fast': 1, 'scale': None, 'theta': '2', 'lambdah': '0.01', 'lambdae': '16.0', 'lambdag': None, 'gapignore': 0, 'maxiter': '10', 'ncores': 6, 'gapignore_tune': '0', 'fast_tune': '1', 'em_iter_print': 1, 'iterations_dir': 'tuning/outputs/tuning_run_56/iterations/', 'final_dir': 'tuning/outputs/tuning_run_56/output/', 'output_dir': 'tuning/outputs/tuning_run_56/', 'plmc_options': ['-t 2', '-lh 0.01', '-le 16.0', '-m 10', '-n 6', '--fast'], 'device': device(type='cpu')}
+
+Using cpu
+
+
+Iteration 0:
+
+sh3_pdz_combined_cluster0_iter0:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+17920 valid sequences out of 17920 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 17920.00)
+iter	time	obj	|x|	|g|	crit
+1	0.1	1376654.6	0.0	2.4	2.4
+2	0.2	1314740.0	0.0	4.0	4.0
+3	0.3	1280517.3	0.0	5.3	5.3
+4	0.4	1212956.3	0.0	6.4	6.4
+5	0.5	1176041.1	0.0	7.2	7.2
+6	0.7	1141651.4	0.0	7.8	7.8
+7	0.8	1102275.5	0.0	8.3	8.3
+8	0.9	1076089.0	0.0	8.7	8.7
+9	1.0	1036659.2	0.0	8.9	8.9
+10	1.1	1007454.1	0.0	9.0	9.0
+
+
+sh3_pdz_combined_cluster1_iter0:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+11658 valid sequences out of 11658 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 11658.00)
+iter	time	obj	|x|	|g|	crit
+1	0.1	888758.6	0.0	1.6	1.6
+2	0.2	847986.6	0.0	2.6	2.6
+3	0.3	819372.1	0.0	3.5	3.5
+4	0.4	784767.6	0.0	4.3	4.3
+5	0.5	749858.4	0.0	4.8	4.8
+6	0.6	730595.8	0.0	5.2	5.2
+7	0.7	706541.8	0.0	5.5	5.5
+8	0.8	678067.9	0.0	5.7	5.7
+9	0.9	661469.6	0.0	5.8	5.8
+10	1.1	638768.0	0.0	5.9	5.9
+
+
+Iteration 1:
+TERMINATING: Repeated cluster assignments

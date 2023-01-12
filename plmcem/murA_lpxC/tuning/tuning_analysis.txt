@@ -1,0 +1,66 @@
+      gap_ignore    theta    maxiter    fast  initialization      em iterations    i0:t0    i0:t1    i1:t0    i1:t1     score
+--  ------------  -------  ---------  ------  ----------------  ---------------  -------  -------  -------  -------  --------
+ 5             1      0.8          5       1  random                         30     3538      274     2313     2177    0.2651
+35             0      0.8          2       0  random                          7     1940     1763     3911      688    0.2588
+45             0      0.8         20       1  random                         30     3396      192     2455     2259    0.2559
+ 3             1      0.8          2       0  random                          8     1329      846     4522     1605    0.2171
+49             0      2            2       1  random                         30     2973     2288     2878      163    0.1947
+13             1      0.8         20       1  random                         30     3052      432     2799     2019    0.1855
+51             0      2            2       0  random                         15     1939     1051     3912     1400    0.1762
+21             1      2            5       1  random                         30     3354      934     2497     1517    0.1692
+41             0      0.8         10       1  random                         28     3169     2112     2682      339    0.164
+ 1             1      0.8          2       1  random                         15     3112     1955     2739      496    0.1581
+19             1      2            2       0  random                         16     3071      848     2780     1603    0.1571
+17             1      2            2       1  random                         30     2617     1397     3234     1054    0.1549
+37             0      0.8          5       1  random                         30     2726     1385     3125     1066    0.1499
+33             0      0.8          2       1  random                         30     2302      955     3549     1496    0.1497
+57             0      2           10       1  random                         30     3150     1131     2701     1320    0.1485
+53             0      2            5       1  random                         30     3317     1309     2534     1142    0.1482
+ 9             1      0.8         10       1  random                         30     3914     2102     1937      349    0.1441
+29             1      2           20       1  random                         30     2829     1246     3022     1205    0.1441
+25             1      2           10       1  random                         30     2951     1142     2900     1309    0.144
+18             1      2            2       0  kmeans                          6     1652        1     4199     2450    0.1436
+50             0      2            2       0  kmeans                          5     4199     2450     1652        1    0.1436
+48             0      2            2       1  kmeans                          7     1717        1     4134     2450    0.1435
+ 0             1      0.8          2       1  kmeans                          6     1663        1     4188     2450    0.1435
+52             0      2            5       1  kmeans                          2     1683        1     4168     2450    0.1435
+56             0      2           10       1  kmeans                          3     1681        1     4170     2450    0.1435
+60             0      2           20       1  kmeans                          1     1679        1     4172     2450    0.1435
+44             0      0.8         20       1  kmeans                          8     1674        1     4177     2450    0.1435
+32             0      0.8          2       1  kmeans                          8     4177     2450     1674        1    0.1435
+40             0      0.8         10       1  kmeans                          8     4177     2450     1674        1    0.1435
+36             0      0.8          5       1  kmeans                          8     1674        1     4177     2450    0.1435
+34             0      0.8          2       0  kmeans                          2     1687        1     4164     2450    0.1435
+28             1      2           20       1  kmeans                          1     4176     2450     1675        1    0.1435
+24             1      2           10       1  kmeans                          2     4175     2450     1676        1    0.1435
+20             1      2            5       1  kmeans                          2     4168     2450     1683        1    0.1435
+16             1      2            2       1  kmeans                          5     1711        1     4140     2450    0.1435
+12             1      0.8         20       1  kmeans                          6     4188     2450     1663        1    0.1435
+ 8             1      0.8         10       1  kmeans                          6     1663        1     4188     2450    0.1435
+ 4             1      0.8          5       1  kmeans                          6     4188     2450     1663        1    0.1435
+ 2             1      0.8          2       0  kmeans                          3     1687        1     4164     2450    0.1435
+61             0      2           20       1  random                         30     2903     1218     2948     1233    0.1435
+ 6             1      0.8          5       0  kmeans                          0      nan      nan      nan      nan  nan
+ 7             1      0.8          5       0  random                          0      nan      nan      nan      nan  nan
+10             1      0.8         10       0  kmeans                          0      nan      nan      nan      nan  nan
+11             1      0.8         10       0  random                          0      nan      nan      nan      nan  nan
+14             1      0.8         20       0  kmeans                          0      nan      nan      nan      nan  nan
+15             1      0.8         20       0  random                          0      nan      nan      nan      nan  nan
+22             1      2            5       0  kmeans                          0      nan      nan      nan      nan  nan
+23             1      2            5       0  random                          0      nan      nan      nan      nan  nan
+26             1      2           10       0  kmeans                          0      nan      nan      nan      nan  nan
+27             1      2           10       0  random                          0      nan      nan      nan      nan  nan
+30             1      2           20       0  kmeans                          0      nan      nan      nan      nan  nan
+31             1      2           20       0  random                          0      nan      nan      nan      nan  nan
+38             0      0.8          5       0  kmeans                          0      nan      nan      nan      nan  nan
+39             0      0.8          5       0  random                          0      nan      nan      nan      nan  nan
+42             0      0.8         10       0  kmeans                          0      nan      nan      nan      nan  nan
+43             0      0.8         10       0  random                          0      nan      nan      nan      nan  nan
+46             0      0.8         20       0  kmeans                          0      nan      nan      nan      nan  nan
+47             0      0.8         20       0  random                          0      nan      nan      nan      nan  nan
+54             0      2            5       0  kmeans                          0      nan      nan      nan      nan  nan
+55             0      2            5       0  random                          0      nan      nan      nan      nan  nan
+58             0      2           10       0  kmeans                          0      nan      nan      nan      nan  nan
+59             0      2           10       0  random                          0      nan      nan      nan      nan  nan
+62             0      2           20       0  kmeans                          0      nan      nan      nan      nan  nan
+63             0      2           20       0  random                          0      nan      nan      nan      nan  nan

@@ -1,0 +1,146 @@
+tuning/outputs/tuning_run_6/ created
+tuning/outputs/tuning_run_6/iterations/ created
+tuning/outputs/tuning_run_6/output/ created
+{'msa-file-name': 'sh3_hi_sampled_seqs.fa', 'em_maxiter': 30, 'em_numclusters': 2, 'em_device': None, 'em_init': 'kmeans', 'em_no_iter_print': 0, 'plmc': '../../plmc/bin/plmc', 'output': 'tuning/outputs/tuning_run_6', 'fast': 0, 'scale': None, 'theta': '0.8', 'lambdah': '0.01', 'lambdae': '16.0', 'lambdag': None, 'gapignore': 1, 'maxiter': '5', 'ncores': 6, 'gapignore_tune': '1', 'fast_tune': '0', 'em_iter_print': 1, 'iterations_dir': 'tuning/outputs/tuning_run_6/iterations/', 'final_dir': 'tuning/outputs/tuning_run_6/output/', 'output_dir': 'tuning/outputs/tuning_run_6/', 'plmc_options': ['-t 0.8', '-lh 0.01', '-le 16.0', '-m 5', '-n 6', '-g'], 'device': device(type='cpu')}
+
+Using cpu
+
+
+Iteration 0:
+
+sh3_hi_sampled_seqs_cluster0_iter0:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+865 valid sequences out of 865 
+41 sites, none trimmed because no target specified
+Effective number of samples: 1.1	(20% identical neighborhood = 1.000 samples)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	0.1	1.09	117.1	113.3	2.8	0.5
+2	0.2	1.11	111.8	107.5	4.7	0.5
+3	0.3	0.45	91.6	84.5	22.3	0.4
+4	0.3	0.40	91.3	84.2	22.3	0.4
+5	0.4	0.08	90.0	85.0	21.4	0.2
+Gradient optimization: MAXIMUMITERATION
+
+
+sh3_hi_sampled_seqs_cluster1_iter0:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+1135 valid sequences out of 1135 
+41 sites, none trimmed because no target specified
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	0.2	1.09	113.6	109.9	2.7	0.5
+2	0.3	1.05	108.4	104.3	4.6	0.5
+3	0.3	0.43	90.1	83.0	23.9	0.3
+4	0.4	0.38	89.7	82.5	23.8	0.3
+5	0.5	0.08	87.7	82.8	21.4	0.1
+Gradient optimization: MAXIMUMITERATION
+
+
+Iteration 1:
+
+sh3_hi_sampled_seqs_cluster0_iter1:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+903 valid sequences out of 903 
+41 sites, none trimmed because no target specified
+Effective number of samples: 1.1	(20% identical neighborhood = 1.000 samples)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	0.1	1.09	117.5	113.8	2.8	0.5
+2	0.2	1.11	112.2	108.0	4.7	0.5
+3	0.3	0.44	92.0	85.0	22.4	0.4
+4	0.3	0.39	91.7	84.7	22.5	0.4
+5	0.4	0.08	90.4	85.4	21.4	0.2
+Gradient optimization: MAXIMUMITERATION
+
+
+sh3_hi_sampled_seqs_cluster1_iter1:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+1097 valid sequences out of 1097 
+41 sites, none trimmed because no target specified
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	0.2	1.09	113.3	109.5	2.7	0.5
+2	0.3	1.05	108.1	103.9	4.6	0.5
+3	0.3	0.43	89.6	82.5	23.8	0.3
+4	0.4	0.38	89.2	82.0	23.7	0.3
+5	0.4	0.08	87.3	82.4	21.4	0.1
+Gradient optimization: MAXIMUMITERATION
+
+
+Iteration 2:
+
+sh3_hi_sampled_seqs_cluster0_iter2:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+917 valid sequences out of 917 
+41 sites, none trimmed because no target specified
+Effective number of samples: 1.1	(20% identical neighborhood = 1.000 samples)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	0.1	1.09	117.8	114.1	2.8	0.5
+2	0.2	1.10	112.5	108.3	4.7	0.5
+3	0.3	0.44	92.3	85.3	22.5	0.4
+4	0.3	0.39	92.0	85.0	22.5	0.4
+5	0.4	0.08	90.7	85.7	21.4	0.2
+Gradient optimization: MAXIMUMITERATION
+
+
+sh3_hi_sampled_seqs_cluster1_iter2:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+1083 valid sequences out of 1083 
+41 sites, none trimmed because no target specified
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	0.1	1.09	113.1	109.3	2.7	0.5
+2	0.2	1.05	107.9	103.7	4.6	0.5
+3	0.3	0.43	89.3	82.3	23.7	0.3
+4	0.4	0.38	89.0	81.8	23.6	0.3
+5	0.4	0.08	87.1	82.2	21.4	0.1
+Gradient optimization: MAXIMUMITERATION
+
+
+Iteration 3:
+
+sh3_hi_sampled_seqs_cluster0_iter3:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+920 valid sequences out of 920 
+41 sites, none trimmed because no target specified
+Effective number of samples: 1.1	(20% identical neighborhood = 1.000 samples)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	0.1	1.09	117.8	114.1	2.8	0.5
+2	0.3	1.10	112.5	108.3	4.7	0.5
+3	0.3	0.44	92.3	85.3	22.5	0.4
+4	0.4	0.39	92.0	85.0	22.5	0.4
+5	0.4	0.08	90.7	85.7	21.4	0.2
+Gradient optimization: MAXIMUMITERATION
+
+
+sh3_hi_sampled_seqs_cluster1_iter3:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+1080 valid sequences out of 1080 
+41 sites, none trimmed because no target specified
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	0.2	1.09	113.1	109.3	2.7	0.5
+2	0.3	1.05	107.9	103.7	4.6	0.5
+3	0.4	0.43	89.3	82.3	23.7	0.3
+4	0.4	0.38	89.0	81.8	23.6	0.3
+5	0.5	0.08	87.1	82.2	21.4	0.1
+Gradient optimization: MAXIMUMITERATION
+
+
+Iteration 4:
+TERMINATING: Repeated cluster assignments

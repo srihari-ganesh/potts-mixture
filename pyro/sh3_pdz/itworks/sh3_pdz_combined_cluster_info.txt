@@ -1,0 +1,33 @@
+{'msa-file-name': 'sh3_pdz_combined.fa', 'em_maxiter': 30, 'em_numclusters': 2, 'em_device': None, 'plmc': '../../plmc/bin/plmc', 'output': 'itworks/', 'true_clusters': 'true_cluster_file_names.txt', 'fast': 1, 'scale': None, 'theta': None, 'lambdah': '0.01', 'lambdae': '16.0', 'lambdag': None, 'gapignore': 1, 'maxiter': '5', 'ncores': 16}
+
+init: 0:00:01.801868
+plmc 0: 0:00:01.320495
+true cluster comparison initialization: 0:00:01.207539
+comparison 0: 0:00:00.970593
+cluster 1: 0:00:04.658438
+comparison 1: 0:00:01.087076
+plmc 1: 0:00:01.135443
+cluster 2: 0:00:01.531151
+comparison 2: 0:00:01.081155
+plmc 2: 0:00:01.533320
+cluster 3: 0:00:01.734273
+comparison 3: 0:00:00.876188
+plmc 3: 0:00:02.162983
+cluster 4: 0:00:01.680851
+comparison 4: 0:00:00.896204
+plmc 4: 0:00:01.835955
+cluster 5: 0:00:01.678851
+comparison 5: 0:00:01.096045
+copy last iter files: 0:00:00.123960
+total EM run time: 0:00:28.689095
+termination reason: repeated cluster assignments
+5 iterations
+final comparison: 0:00:00.904724
+
+                                sh3_trimmed.fa    pdz_trimmed.fa
+----------------------------  ----------------  ----------------
+sh3_pdz_combined_cluster0.fa             11658                 0
+sh3_pdz_combined_cluster1.fa                 0             17920
+
+Clustering score (max 1.0): 1.0
+

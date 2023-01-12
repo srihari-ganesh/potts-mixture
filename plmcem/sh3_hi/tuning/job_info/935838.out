@@ -1,0 +1,136 @@
+tuning/outputs/tuning_run_56/ created
+tuning/outputs/tuning_run_56/iterations/ created
+tuning/outputs/tuning_run_56/output/ created
+{'msa-file-name': 'sh3_hi_sampled_seqs.fa', 'em_maxiter': 30, 'em_numclusters': 2, 'em_device': None, 'em_init': 'kmeans', 'em_no_iter_print': 0, 'plmc': '../../plmc/bin/plmc', 'output': 'tuning/outputs/tuning_run_56', 'fast': 1, 'scale': None, 'theta': '2', 'lambdah': '0.01', 'lambdae': '16.0', 'lambdag': None, 'gapignore': 0, 'maxiter': '10', 'ncores': 6, 'gapignore_tune': '0', 'fast_tune': '1', 'em_iter_print': 1, 'iterations_dir': 'tuning/outputs/tuning_run_56/iterations/', 'final_dir': 'tuning/outputs/tuning_run_56/output/', 'output_dir': 'tuning/outputs/tuning_run_56/', 'plmc_options': ['-t 2', '-lh 0.01', '-le 16.0', '-m 10', '-n 6', '--fast'], 'device': device(type='cpu')}
+
+Using cpu
+
+
+Iteration 0:
+
+sh3_hi_sampled_seqs_cluster0_iter0:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+857 valid sequences out of 857 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 857.00)
+iter	time	obj	|x|	|g|	crit
+1	0.1	61139.2	0.0	0.1	0.1
+2	0.3	59157.2	0.0	0.2	0.2
+3	0.3	57332.5	0.0	0.2	0.2
+4	0.4	55852.5	0.0	0.2	0.2
+5	0.5	54255.4	0.0	0.3	0.3
+6	0.6	53021.2	0.0	0.3	0.3
+7	0.7	52300.7	0.0	0.3	0.3
+8	0.7	51241.3	0.0	0.3	0.3
+9	0.8	50736.5	0.0	0.3	0.3
+10	0.9	50115.7	0.0	0.3	0.3
+
+
+sh3_hi_sampled_seqs_cluster1_iter0:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+1143 valid sequences out of 1143 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 1143.00)
+iter	time	obj	|x|	|g|	crit
+1	0.2	82846.3	0.0	0.1	0.1
+2	0.3	80732.0	0.0	0.2	0.2
+3	0.4	78468.5	0.0	0.3	0.3
+4	0.5	76893.0	0.0	0.3	0.3
+5	0.6	75412.1	0.0	0.3	0.3
+6	0.7	74538.4	0.0	0.3	0.3
+7	0.7	73026.2	0.0	0.3	0.3
+8	0.9	72415.7	0.0	0.3	0.3
+9	0.9	71514.4	0.0	0.3	0.3
+10	1.0	70928.6	0.0	0.3	0.3
+
+
+Iteration 1:
+
+sh3_hi_sampled_seqs_cluster0_iter1:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+858 valid sequences out of 858 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 858.00)
+iter	time	obj	|x|	|g|	crit
+1	0.1	61272.5	0.0	0.1	0.1
+2	0.3	59263.7	0.0	0.2	0.2
+3	0.4	57353.2	0.0	0.2	0.2
+4	0.4	55703.6	0.0	0.2	0.2
+5	0.5	54370.8	0.0	0.3	0.3
+6	0.6	53133.1	0.0	0.3	0.3
+7	0.7	52325.8	0.0	0.3	0.3
+8	0.8	51257.8	0.0	0.3	0.3
+9	1.0	50859.3	0.0	0.3	0.3
+10	1.0	50223.6	0.0	0.3	0.3
+
+
+sh3_hi_sampled_seqs_cluster1_iter1:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+1142 valid sequences out of 1142 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 1142.00)
+iter	time	obj	|x|	|g|	crit
+1	0.2	82958.7	0.0	0.1	0.1
+2	0.3	80602.7	0.0	0.2	0.2
+3	0.4	78366.6	0.0	0.3	0.3
+4	0.4	76700.7	0.0	0.3	0.3
+5	0.5	75384.0	0.0	0.3	0.3
+6	0.6	74395.8	0.0	0.3	0.3
+7	0.7	72964.6	0.0	0.3	0.3
+8	0.8	72475.9	0.0	0.3	0.3
+9	0.9	71439.4	0.0	0.3	0.3
+10	1.0	70841.1	0.0	0.3	0.3
+
+
+Iteration 2:
+
+sh3_hi_sampled_seqs_cluster0_iter2:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+859 valid sequences out of 859 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 859.00)
+iter	time	obj	|x|	|g|	crit
+1	0.1	61274.8	0.0	0.1	0.1
+2	0.2	59334.0	0.0	0.2	0.2
+3	0.3	57311.7	0.0	0.2	0.2
+4	0.4	55829.1	0.0	0.2	0.2
+5	0.5	54373.9	0.0	0.3	0.3
+6	0.6	53295.6	0.0	0.3	0.3
+7	0.7	52335.0	0.0	0.3	0.3
+8	0.8	51462.7	0.0	0.3	0.3
+9	0.9	50856.1	0.0	0.3	0.3
+10	1.0	50405.3	0.0	0.3	0.3
+
+
+sh3_hi_sampled_seqs_cluster1_iter2:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+1141 valid sequences out of 1141 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 1141.00)
+iter	time	obj	|x|	|g|	crit
+1	0.1	82773.6	0.0	0.1	0.1
+2	0.2	80710.6	0.0	0.2	0.2
+3	0.3	78425.7	0.0	0.3	0.3
+4	0.4	76595.7	0.0	0.3	0.3
+5	0.5	75377.3	0.0	0.3	0.3
+6	0.6	74249.4	0.0	0.3	0.3
+7	0.7	72995.7	0.0	0.3	0.3
+8	0.8	72268.7	0.0	0.3	0.3
+9	0.9	71436.4	0.0	0.3	0.3
+10	1.0	70804.8	0.0	0.3	0.3
+
+
+Iteration 3:
+TERMINATING: Repeated cluster assignments

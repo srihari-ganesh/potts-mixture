@@ -1,0 +1,766 @@
+tuning/outputs/tuning_run_51/ created
+tuning/outputs/tuning_run_51/iterations/ created
+tuning/outputs/tuning_run_51/output/ created
+{'msa-file-name': 'sh3_pdz_combined.fa', 'em_maxiter': 30, 'em_numclusters': 2, 'em_device': None, 'em_init': 'random', 'em_no_iter_print': 0, 'plmc': '../../plmc/bin/plmc', 'output': 'tuning/outputs/tuning_run_51', 'fast': 0, 'scale': None, 'theta': '2', 'lambdah': '0.01', 'lambdae': '16.0', 'lambdag': None, 'gapignore': 0, 'maxiter': '2', 'ncores': 6, 'gapignore_tune': '0', 'fast_tune': '0', 'em_iter_print': 1, 'iterations_dir': 'tuning/outputs/tuning_run_51/iterations/', 'final_dir': 'tuning/outputs/tuning_run_51/output/', 'output_dir': 'tuning/outputs/tuning_run_51/', 'plmc_options': ['-t 2', '-lh 0.01', '-le 16.0', '-m 2', '-n 6'], 'device': device(type='cpu')}
+
+Using cpu
+
+
+Iteration 0:
+
+sh3_pdz_combined_cluster0_iter0:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+14789 valid sequences out of 14789 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 14789.00)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	1.0	1422.46	1277529.1	1277490.7	47.3	1.0
+2	1.4	643.00	1146727.6	1146445.0	47.3	4.0
+Gradient optimization: MAXIMUMITERATION
+
+
+sh3_pdz_combined_cluster1_iter0:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+14789 valid sequences out of 14789 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 14789.00)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	1.0	1419.03	1274123.4	1274085.1	47.3	1.0
+2	1.4	640.09	1145294.7	1145015.5	47.2	4.0
+Gradient optimization: MAXIMUMITERATION
+
+
+Iteration 1:
+
+sh3_pdz_combined_cluster0_iter1:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+16002 valid sequences out of 16002 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 16002.00)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	0.9	1520.97	1378219.9	1378178.1	50.9	1.0
+2	1.3	712.01	1212853.8	1212537.6	50.9	4.3
+Gradient optimization: MAXIMUMITERATION
+
+
+sh3_pdz_combined_cluster1_iter1:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+13576 valid sequences out of 13576 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 13576.00)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	0.9	1228.12	1139831.6	1139790.7	50.0	1.0
+2	1.3	584.45	1013618.3	1013301.0	50.0	4.3
+Gradient optimization: MAXIMUMITERATION
+
+
+Iteration 2:
+
+sh3_pdz_combined_cluster0_iter2:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+15182 valid sequences out of 15182 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 15182.00)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	1.0	1452.28	1296729.9	1296687.4	51.6	1.0
+2	1.4	688.08	1131920.7	1131589.7	51.5	4.4
+Gradient optimization: MAXIMUMITERATION
+
+
+sh3_pdz_combined_cluster1_iter2:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+14396 valid sequences out of 14396 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 14396.00)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	1.0	1137.77	1185344.1	1185302.2	50.9	1.0
+2	1.4	584.88	1047743.9	1047328.9	50.9	4.9
+Gradient optimization: MAXIMUMITERATION
+
+
+Iteration 3:
+
+sh3_pdz_combined_cluster0_iter3:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+14504 valid sequences out of 14504 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 14504.00)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	0.9	1308.13	1220978.8	1220935.3	52.4	1.0
+2	1.3	638.50	1058181.0	1057797.1	52.4	4.7
+Gradient optimization: MAXIMUMITERATION
+
+
+sh3_pdz_combined_cluster1_iter3:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+15074 valid sequences out of 15074 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 15074.00)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	0.9	961.88	1217902.6	1217860.4	51.1	1.0
+2	1.3	571.41	1067714.9	1067101.4	51.0	6.1
+Gradient optimization: MAXIMUMITERATION
+
+
+Iteration 4:
+
+sh3_pdz_combined_cluster0_iter4:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+13693 valid sequences out of 13693 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 13693.00)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	0.9	1134.43	1135237.8	1135193.1	53.6	1.0
+2	1.3	580.69	974729.4	974263.1	53.5	5.2
+Gradient optimization: MAXIMUMITERATION
+
+
+sh3_pdz_combined_cluster1_iter4:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+15885 valid sequences out of 15885 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 15885.00)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	1.0	890.61	1271455.9	1271414.1	50.8	1.0
+2	1.4	592.13	1112124.8	1111383.9	50.7	6.7
+Gradient optimization: MAXIMUMITERATION
+
+
+Iteration 5:
+
+sh3_pdz_combined_cluster0_iter5:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+13282 valid sequences out of 13282 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 13282.00)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	0.9	1022.88	1088772.6	1088727.0	54.3	1.0
+2	1.3	549.64	929232.2	928692.2	54.3	5.6
+Gradient optimization: MAXIMUMITERATION
+
+
+sh3_pdz_combined_cluster1_iter5:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+16296 valid sequences out of 16296 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 16296.00)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	1.0	845.91	1295240.8	1295199.1	50.7	1.0
+2	1.4	617.78	1130638.4	1129802.5	50.6	7.1
+Gradient optimization: MAXIMUMITERATION
+
+
+Iteration 6:
+
+sh3_pdz_combined_cluster0_iter6:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+13003 valid sequences out of 13003 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 13003.00)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	0.7	951.32	1057883.0	1057837.0	54.8	1.0
+2	1.1	531.45	899313.6	898713.5	54.8	6.0
+Gradient optimization: MAXIMUMITERATION
+
+
+sh3_pdz_combined_cluster1_iter6:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+16575 valid sequences out of 16575 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 16575.00)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	1.0	827.50	1312902.9	1312861.3	50.6	1.0
+2	1.3	635.66	1145930.9	1145048.0	50.5	7.3
+Gradient optimization: MAXIMUMITERATION
+
+
+Iteration 7:
+
+sh3_pdz_combined_cluster0_iter7:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+12730 valid sequences out of 12730 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 12730.00)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	0.8	880.34	1025398.7	1025352.3	55.1	1.0
+2	1.1	516.04	866418.3	865731.7	55.1	6.4
+Gradient optimization: MAXIMUMITERATION
+
+
+sh3_pdz_combined_cluster1_iter7:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+16848 valid sequences out of 16848 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 16848.00)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	1.0	804.04	1328091.7	1328050.1	50.6	1.0
+2	1.3	655.48	1158222.5	1157268.4	50.5	7.6
+Gradient optimization: MAXIMUMITERATION
+
+
+Iteration 8:
+
+sh3_pdz_combined_cluster0_iter8:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+12679 valid sequences out of 12679 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 12679.00)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	0.8	829.91	1014696.1	1014649.3	55.5	1.0
+2	1.1	506.54	853605.3	852839.1	55.5	6.8
+Gradient optimization: MAXIMUMITERATION
+
+
+sh3_pdz_combined_cluster1_iter8:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+16899 valid sequences out of 16899 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 16899.00)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	1.0	770.44	1320271.9	1320230.2	50.7	1.0
+2	1.3	663.04	1147362.7	1146283.9	50.6	8.1
+Gradient optimization: MAXIMUMITERATION
+
+
+Iteration 9:
+
+sh3_pdz_combined_cluster0_iter9:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+12718 valid sequences out of 12718 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 12718.00)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	0.7	801.65	1015467.5	1015420.6	55.6	1.0
+2	1.1	501.17	851582.4	850750.5	55.5	7.1
+Gradient optimization: MAXIMUMITERATION
+
+
+sh3_pdz_combined_cluster1_iter9:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+16860 valid sequences out of 16860 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 16860.00)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	1.1	737.87	1304298.1	1304255.9	51.2	1.0
+2	1.4	658.77	1130157.9	1128971.9	51.1	8.5
+Gradient optimization: MAXIMUMITERATION
+
+
+Iteration 10:
+
+sh3_pdz_combined_cluster0_iter10:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+12787 valid sequences out of 12787 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 12787.00)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	0.9	795.49	1020671.3	1020624.3	55.7	1.0
+2	1.3	501.48	854903.7	854049.8	55.7	7.2
+Gradient optimization: MAXIMUMITERATION
+
+
+sh3_pdz_combined_cluster1_iter10:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+16791 valid sequences out of 16791 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 16791.00)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	1.0	715.35	1292893.0	1292850.5	51.4	1.0
+2	1.4	655.76	1116678.9	1115380.3	51.4	8.9
+Gradient optimization: MAXIMUMITERATION
+
+
+Iteration 11:
+
+sh3_pdz_combined_cluster0_iter11:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+12941 valid sequences out of 12941 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 12941.00)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	0.8	797.94	1033914.9	1033867.9	55.7	1.0
+2	1.1	508.68	864636.7	863758.3	55.7	7.3
+Gradient optimization: MAXIMUMITERATION
+
+
+sh3_pdz_combined_cluster1_iter11:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+16637 valid sequences out of 16637 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 16637.00)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	1.0	676.86	1271258.9	1271215.8	52.0	1.0
+2	1.3	652.49	1092026.4	1090501.4	52.0	9.7
+Gradient optimization: MAXIMUMITERATION
+
+
+Iteration 12:
+
+sh3_pdz_combined_cluster0_iter12:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+13088 valid sequences out of 13088 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 13088.00)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	0.9	803.20	1046746.2	1046699.3	55.6	1.0
+2	1.3	516.10	874354.8	873457.7	55.6	7.4
+Gradient optimization: MAXIMUMITERATION
+
+
+sh3_pdz_combined_cluster1_iter12:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+16490 valid sequences out of 16490 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 16490.00)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	1.0	642.19	1250147.1	1250103.1	52.9	1.0
+2	1.3	653.66	1068299.0	1066509.7	52.9	10.5
+Gradient optimization: MAXIMUMITERATION
+
+
+Iteration 13:
+
+sh3_pdz_combined_cluster0_iter13:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+13171 valid sequences out of 13171 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 13171.00)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	0.9	808.02	1053955.6	1053908.9	55.5	1.0
+2	1.3	521.54	879200.1	878287.5	55.4	7.4
+Gradient optimization: MAXIMUMITERATION
+
+
+sh3_pdz_combined_cluster1_iter13:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+16407 valid sequences out of 16407 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 16407.00)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	0.9	618.29	1237454.2	1237409.2	53.9	1.0
+2	1.3	656.80	1055759.2	1053817.5	53.8	10.9
+Gradient optimization: MAXIMUMITERATION
+
+
+Iteration 14:
+
+sh3_pdz_combined_cluster0_iter14:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+13182 valid sequences out of 13182 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 13182.00)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	0.8	807.95	1054952.9	1054906.3	55.4	1.0
+2	1.2	522.59	879795.8	878877.1	55.3	7.5
+Gradient optimization: MAXIMUMITERATION
+
+
+sh3_pdz_combined_cluster1_iter14:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+16396 valid sequences out of 16396 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 16396.00)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	1.0	612.05	1235026.9	1234981.5	54.1	1.0
+2	1.3	657.39	1053726.3	1051755.4	54.1	11.0
+Gradient optimization: MAXIMUMITERATION
+
+
+Iteration 15:
+
+sh3_pdz_combined_cluster0_iter15:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+13190 valid sequences out of 13190 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 13190.00)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	0.7	804.80	1055392.0	1055345.4	55.3	1.0
+2	1.1	522.46	879931.6	879003.3	55.3	7.5
+Gradient optimization: MAXIMUMITERATION
+
+
+sh3_pdz_combined_cluster1_iter15:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+16388 valid sequences out of 16388 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 16388.00)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	1.1	605.65	1232340.8	1232295.3	54.3	1.0
+2	1.3	659.80	1052306.3	1050305.9	54.3	11.1
+Gradient optimization: MAXIMUMITERATION
+
+
+Iteration 16:
+
+sh3_pdz_combined_cluster0_iter16:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+13242 valid sequences out of 13242 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 13242.00)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	0.8	802.21	1058832.8	1058786.2	55.4	1.0
+2	1.1	524.03	881626.9	880680.3	55.3	7.6
+Gradient optimization: MAXIMUMITERATION
+
+
+sh3_pdz_combined_cluster1_iter16:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+16336 valid sequences out of 16336 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 16336.00)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	1.0	595.02	1221535.1	1221489.4	54.5	1.0
+2	1.3	680.98	1043652.9	1041512.2	54.5	11.5
+Gradient optimization: MAXIMUMITERATION
+
+
+Iteration 17:
+
+sh3_pdz_combined_cluster0_iter17:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+13139 valid sequences out of 13139 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 13139.00)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	0.8	774.53	1047523.8	1047476.9	55.6	1.0
+2	1.1	516.62	869034.5	868018.9	55.5	7.8
+Gradient optimization: MAXIMUMITERATION
+
+
+sh3_pdz_combined_cluster1_iter17:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+16439 valid sequences out of 16439 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 16439.00)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	1.0	595.44	1226327.1	1226281.0	54.8	1.0
+2	1.3	670.69	1048887.9	1046834.3	54.8	11.2
+Gradient optimization: MAXIMUMITERATION
+
+
+Iteration 18:
+
+sh3_pdz_combined_cluster0_iter18:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+13131 valid sequences out of 13131 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 13131.00)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	0.8	773.25	1046262.5	1046215.7	55.6	1.0
+2	1.2	519.63	866458.9	865421.2	55.5	7.9
+Gradient optimization: MAXIMUMITERATION
+
+
+sh3_pdz_combined_cluster1_iter18:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+16447 valid sequences out of 16447 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 16447.00)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	1.0	588.50	1225584.6	1225538.1	55.2	1.0
+2	1.3	671.13	1048731.0	1046664.0	55.2	11.3
+Gradient optimization: MAXIMUMITERATION
+
+
+Iteration 19:
+
+sh3_pdz_combined_cluster0_iter19:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+13152 valid sequences out of 13152 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 13152.00)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	0.9	777.42	1048565.8	1048519.2	55.4	1.0
+2	1.3	522.92	867664.8	866619.7	55.3	8.0
+Gradient optimization: MAXIMUMITERATION
+
+
+sh3_pdz_combined_cluster1_iter19:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+16426 valid sequences out of 16426 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 16426.00)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	0.9	580.38	1222063.5	1222016.4	55.7	1.0
+2	1.4	673.72	1046182.8	1044093.6	55.7	11.3
+Gradient optimization: MAXIMUMITERATION
+
+
+Iteration 20:
+
+sh3_pdz_combined_cluster0_iter20:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+13171 valid sequences out of 13171 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 13171.00)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	0.9	781.70	1050837.1	1050790.6	55.2	1.0
+2	1.3	525.18	869437.5	868392.9	55.1	8.0
+Gradient optimization: MAXIMUMITERATION
+
+
+sh3_pdz_combined_cluster1_iter20:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+16407 valid sequences out of 16407 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 16407.00)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	1.0	572.40	1219268.1	1219220.4	56.3	1.0
+2	1.3	671.85	1043946.2	1041840.6	56.3	11.4
+Gradient optimization: MAXIMUMITERATION
+
+
+Iteration 21:
+
+sh3_pdz_combined_cluster0_iter21:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+13176 valid sequences out of 13176 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 13176.00)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	0.8	782.64	1051387.2	1051340.7	55.2	1.0
+2	1.1	525.38	870053.1	869011.7	55.1	7.9
+Gradient optimization: MAXIMUMITERATION
+
+
+sh3_pdz_combined_cluster1_iter21:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+16402 valid sequences out of 16402 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 16402.00)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	1.0	572.32	1218869.7	1218822.0	56.3	1.0
+2	1.3	671.68	1043571.2	1041465.8	56.3	11.4
+Gradient optimization: MAXIMUMITERATION
+
+
+Iteration 22:
+
+sh3_pdz_combined_cluster0_iter22:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+13177 valid sequences out of 13177 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 13177.00)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	0.9	782.89	1051485.0	1051438.5	55.2	1.0
+2	1.3	525.42	870168.3	869127.7	55.1	7.9
+Gradient optimization: MAXIMUMITERATION
+
+
+sh3_pdz_combined_cluster1_iter22:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+16401 valid sequences out of 16401 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 16401.00)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	1.0	572.36	1218828.3	1218780.6	56.3	1.0
+2	1.4	671.66	1043506.2	1041400.6	56.2	11.4
+Gradient optimization: MAXIMUMITERATION
+
+
+Iteration 23:
+
+sh3_pdz_combined_cluster0_iter23:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+13176 valid sequences out of 13176 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 13176.00)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	0.9	782.68	1051337.5	1051291.0	55.2	1.0
+2	1.2	525.36	870035.0	868994.0	55.1	7.9
+Gradient optimization: MAXIMUMITERATION
+
+
+sh3_pdz_combined_cluster1_iter23:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+16402 valid sequences out of 16402 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 16402.00)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	0.9	572.48	1218967.8	1218920.2	56.3	1.0
+2	1.3	671.61	1043641.2	1041536.3	56.2	11.4
+Gradient optimization: MAXIMUMITERATION
+
+
+Iteration 24:
+
+sh3_pdz_combined_cluster0_iter24:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+13175 valid sequences out of 13175 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 13175.00)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	0.8	782.43	1051212.1	1051165.6	55.2	1.0
+2	1.2	525.29	869910.6	868869.1	55.2	7.9
+Gradient optimization: MAXIMUMITERATION
+
+
+sh3_pdz_combined_cluster1_iter24:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+16403 valid sequences out of 16403 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 16403.00)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	1.0	572.52	1219074.3	1219026.6	56.3	1.0
+2	1.3	671.68	1043742.6	1041637.9	56.2	11.4
+Gradient optimization: MAXIMUMITERATION
+
+
+Iteration 25:
+
+sh3_pdz_combined_cluster0_iter25:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+13174 valid sequences out of 13174 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 13174.00)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	0.8	781.98	1051097.7	1051051.2	55.3	1.0
+2	1.2	525.08	869777.5	868735.4	55.2	8.0
+Gradient optimization: MAXIMUMITERATION
+
+
+sh3_pdz_combined_cluster1_iter25:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+16404 valid sequences out of 16404 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 16404.00)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	1.0	572.53	1219162.9	1219115.2	56.3	1.0
+2	1.3	671.73	1043827.3	1041722.4	56.2	11.4
+Gradient optimization: MAXIMUMITERATION
+
+
+Iteration 26:
+
+sh3_pdz_combined_cluster0_iter26:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+13173 valid sequences out of 13173 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 13173.00)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	0.8	781.84	1050973.6	1050927.0	55.3	1.0
+2	1.3	525.10	869634.0	868591.0	55.2	8.0
+Gradient optimization: MAXIMUMITERATION
+
+
+sh3_pdz_combined_cluster1_iter26:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+16405 valid sequences out of 16405 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 16405.00)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	1.0	572.54	1219261.6	1219213.9	56.3	1.0
+2	1.3	671.62	1043934.6	1041830.4	56.2	11.4
+Gradient optimization: MAXIMUMITERATION
+
+
+Iteration 27:
+TERMINATING: Repeated cluster assignments

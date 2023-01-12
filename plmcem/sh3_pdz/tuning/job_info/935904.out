@@ -1,0 +1,54 @@
+tuning/outputs/tuning_run_58/ created
+tuning/outputs/tuning_run_58/iterations/ created
+tuning/outputs/tuning_run_58/output/ created
+{'msa-file-name': 'sh3_pdz_combined.fa', 'em_maxiter': 30, 'em_numclusters': 2, 'em_device': None, 'em_init': 'kmeans', 'em_no_iter_print': 0, 'plmc': '../../plmc/bin/plmc', 'output': 'tuning/outputs/tuning_run_58', 'fast': 0, 'scale': None, 'theta': '2', 'lambdah': '0.01', 'lambdae': '16.0', 'lambdag': None, 'gapignore': 0, 'maxiter': '10', 'ncores': 6, 'gapignore_tune': '0', 'fast_tune': '0', 'em_iter_print': 1, 'iterations_dir': 'tuning/outputs/tuning_run_58/iterations/', 'final_dir': 'tuning/outputs/tuning_run_58/output/', 'output_dir': 'tuning/outputs/tuning_run_58/', 'plmc_options': ['-t 2', '-lh 0.01', '-le 16.0', '-m 10', '-n 6'], 'device': device(type='cpu')}
+
+Using cpu
+
+
+Iteration 0:
+
+sh3_pdz_combined_cluster0_iter0:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+17920 valid sequences out of 17920 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 17920.00)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	1.5	645.08	1339180.8	1339132.7	56.7	1.0
+2	2.0	835.80	1119873.2	1117005.4	56.6	13.3
+3	2.9	577.17	1067840.2	1063109.4	56.6	17.1
+4	3.4	386.90	1043289.9	1037239.4	56.5	19.4
+5	3.9	332.27	1010448.2	1001481.4	56.5	23.6
+6	4.3	537.53	977197.5	963466.0	56.4	29.3
+7	4.7	318.35	940006.7	922069.3	56.3	33.5
+8	5.1	271.46	909340.3	888869.6	56.2	35.7
+9	5.4	368.79	890528.3	868843.4	56.2	36.8
+10	5.8	284.08	875237.7	854179.9	56.2	36.3
+Gradient optimization: MAXIMUMITERATION
+
+
+sh3_pdz_combined_cluster1_iter0:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+11658 valid sequences out of 11658 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 11658.00)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	0.7	452.04	862814.6	862763.5	59.2	1.0
+2	1.2	741.09	719233.8	715790.2	59.2	14.6
+3	1.5	720.80	706438.3	697932.5	59.2	23.0
+4	1.9	361.51	654981.5	647031.0	59.1	22.2
+5	2.4	345.21	638754.7	631449.9	59.1	21.3
+6	2.7	186.38	626596.9	618475.2	59.1	22.5
+7	3.0	194.31	608028.5	598067.9	59.1	24.9
+8	3.3	222.53	583986.8	570173.6	59.0	29.3
+9	3.9	344.17	573084.3	556455.0	59.0	32.2
+10	4.3	179.05	557649.7	537406.0	58.9	35.5
+Gradient optimization: MAXIMUMITERATION
+
+
+Iteration 1:
+TERMINATING: Repeated cluster assignments

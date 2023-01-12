@@ -1,0 +1,66 @@
+tuning/outputs/tuning_run_34/ created
+tuning/outputs/tuning_run_34/iterations/ created
+tuning/outputs/tuning_run_34/output/ created
+{'msa-file-name': 'murA_lpxC_filtered.fa', 'em_maxiter': 30, 'em_numclusters': 2, 'em_device': None, 'em_init': 'kmeans', 'em_no_iter_print': 0, 'plmc': '../../plmc/bin/plmc', 'output': 'tuning/outputs/tuning_run_34', 'fast': 0, 'scale': None, 'theta': '0.8', 'lambdah': '0.01', 'lambdae': '16.0', 'lambdag': None, 'gapignore': 0, 'maxiter': '2', 'ncores': 6, 'gapignore_tune': '0', 'fast_tune': '0', 'em_iter_print': 1, 'iterations_dir': 'tuning/outputs/tuning_run_34/iterations/', 'final_dir': 'tuning/outputs/tuning_run_34/output/', 'output_dir': 'tuning/outputs/tuning_run_34/', 'plmc_options': ['-t 0.8', '-lh 0.01', '-le 16.0', '-m 2', '-n 6'], 'device': device(type='cpu')}
+
+Using cpu
+
+
+Iteration 0:
+
+murA_lpxC_filtered_cluster0_iter0:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+1680 valid sequences out of 1680 
+724 sites, none trimmed because no target specified
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	27.5	29.59	1369.7	1351.5	15.2	1.0
+2	54.0	9.06	946.5	671.6	15.3	4.1
+Gradient optimization: MAXIMUMITERATION
+
+
+murA_lpxC_filtered_cluster1_iter0:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+6622 valid sequences out of 6622 
+724 sites, none trimmed because no target specified
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	81.9	25.21	1565.6	1547.7	13.5	1.0
+2	128.7	9.70	1244.6	967.6	13.7	4.1
+Gradient optimization: MAXIMUMITERATION
+
+
+Iteration 1:
+
+murA_lpxC_filtered_cluster0_iter1:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+1688 valid sequences out of 1688 
+724 sites, none trimmed because no target specified
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	30.2	29.55	1372.2	1353.9	15.1	1.0
+2	55.0	9.06	950.3	675.6	15.3	4.1
+Gradient optimization: MAXIMUMITERATION
+
+
+murA_lpxC_filtered_cluster1_iter1:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+6614 valid sequences out of 6614 
+724 sites, none trimmed because no target specified
+Effective number of samples: 1.0	(20% identical neighborhood = 1.000 samples)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	90.6	25.22	1565.1	1547.3	13.5	1.0
+2	128.8	9.70	1243.9	966.9	13.7	4.1
+Gradient optimization: MAXIMUMITERATION
+
+
+Iteration 2:
+TERMINATING: Repeated cluster assignments

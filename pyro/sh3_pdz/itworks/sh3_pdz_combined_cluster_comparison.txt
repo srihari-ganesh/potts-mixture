@@ -1,0 +1,7 @@
+                                sh3_trimmed.fa    pdz_trimmed.fa
+----------------------------  ----------------  ----------------
+sh3_pdz_combined_cluster0.fa             11658                 0
+sh3_pdz_combined_cluster1.fa                 0             17920
+
+Clustering score (max 1.0): 1.0
+

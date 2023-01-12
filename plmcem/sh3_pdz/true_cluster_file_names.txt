@@ -1,0 +1,2 @@
+sh3_trimmed.fa
+pdz_trimmed.fa

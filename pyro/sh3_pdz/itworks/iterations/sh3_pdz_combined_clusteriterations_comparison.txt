@@ -1,0 +1,42 @@
+                                      sh3_trimmed.fa    pdz_trimmed.fa
+----------------------------------  ----------------  ----------------
+sh3_pdz_combined_cluster0_iter0.fa              5729              9060
+sh3_pdz_combined_cluster1_iter0.fa              5929              8860
+
+Clustering score (max 1.0): 0.04301202435979662
+
+                                      sh3_trimmed.fa    pdz_trimmed.fa
+----------------------------------  ----------------  ----------------
+sh3_pdz_combined_cluster0_iter1.fa              6529              6037
+sh3_pdz_combined_cluster1_iter1.fa              5129             11883
+
+Clustering score (max 1.0): 0.10028101044655045
+
+                                      sh3_trimmed.fa    pdz_trimmed.fa
+----------------------------------  ----------------  ----------------
+sh3_pdz_combined_cluster0_iter2.fa             10680              1520
+sh3_pdz_combined_cluster1_iter2.fa               978             16400
+
+Clustering score (max 1.0): 0.7039606846465616
+
+                                      sh3_trimmed.fa    pdz_trimmed.fa
+----------------------------------  ----------------  ----------------
+sh3_pdz_combined_cluster0_iter3.fa             11658                 1
+sh3_pdz_combined_cluster1_iter3.fa                 0             17919
+
+Clustering score (max 1.0): 0.9998705618138498
+
+                                      sh3_trimmed.fa    pdz_trimmed.fa
+----------------------------------  ----------------  ----------------
+sh3_pdz_combined_cluster0_iter4.fa             11658                 0
+sh3_pdz_combined_cluster1_iter4.fa                 0             17920
+
+Clustering score (max 1.0): 1.0
+
+                                      sh3_trimmed.fa    pdz_trimmed.fa
+----------------------------------  ----------------  ----------------
+sh3_pdz_combined_cluster0_iter5.fa             11658                 0
+sh3_pdz_combined_cluster1_iter5.fa                 0             17920
+
+Clustering score (max 1.0): 1.0
+

@@ -1,0 +1,44 @@
+tuning/outputs/tuning_run_22/ created
+tuning/outputs/tuning_run_22/iterations/ created
+tuning/outputs/tuning_run_22/output/ created
+{'msa-file-name': 'pdz_hi_sampled_seqs.fa', 'em_maxiter': 30, 'em_numclusters': 2, 'em_device': None, 'em_init': 'kmeans', 'em_no_iter_print': 0, 'plmc': '../../plmc/bin/plmc', 'output': 'tuning/outputs/tuning_run_22', 'fast': 0, 'scale': None, 'theta': '2', 'lambdah': '0.01', 'lambdae': '16.0', 'lambdag': None, 'gapignore': 1, 'maxiter': '5', 'ncores': 6, 'gapignore_tune': '1', 'fast_tune': '0', 'em_iter_print': 1, 'iterations_dir': 'tuning/outputs/tuning_run_22/iterations/', 'final_dir': 'tuning/outputs/tuning_run_22/output/', 'output_dir': 'tuning/outputs/tuning_run_22/', 'plmc_options': ['-t 2', '-lh 0.01', '-le 16.0', '-m 5', '-n 6', '-g'], 'device': device(type='cpu')}
+
+Using cpu
+
+
+Iteration 0:
+
+pdz_hi_sampled_seqs_cluster0_iter0:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+1177 valid sequences out of 1177 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 1177.00)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	0.2	34.82	89694.3	89659.2	43.7	1.0
+2	0.2	50.19	80147.3	77224.1	43.9	13.5
+3	0.3	40.76	78669.9	74449.0	43.9	16.2
+4	0.3	26.90	77863.0	72832.6	43.9	17.7
+5	0.4	23.03	76726.6	70263.0	43.8	20.1
+Gradient optimization: MAXIMUMITERATION
+
+
+pdz_hi_sampled_seqs_cluster1_iter0:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+823 valid sequences out of 823 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 823.00)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	0.1	31.82	59417.2	59382.4	43.4	1.0
+2	0.1	36.62	52894.9	51326.4	43.5	9.8
+3	0.2	36.70	51530.4	48945.3	43.5	12.7
+4	0.3	23.12	50590.6	47008.9	43.5	14.9
+5	0.3	17.54	49605.2	44607.6	43.5	17.6
+Gradient optimization: MAXIMUMITERATION
+
+
+Iteration 1:
+TERMINATING: Repeated cluster assignments

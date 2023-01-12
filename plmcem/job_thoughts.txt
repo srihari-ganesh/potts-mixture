@@ -1,0 +1,2 @@
+Ran murA/lpxC on 32G and 16 cores, 26% compute efficiency with 11G maximum memory usage.
+So I've started using 16G and 5 cores, and maxed out at 30 EM iterations because I've never seen repeats after like 10 iterations.

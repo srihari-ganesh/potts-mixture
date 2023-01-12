@@ -1,0 +1,2 @@
+murA_lpxC_true_cluster0.fa
+murA_lpxC_true_cluster1.fa

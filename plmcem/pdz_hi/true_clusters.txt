@@ -1,0 +1,2 @@
+pdz_sampled_seqs.fa
+pdz_hi_sh3_Jij_sampled_seqs.fa

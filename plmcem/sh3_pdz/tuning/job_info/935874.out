@@ -1,0 +1,72 @@
+tuning/outputs/tuning_run_28/ created
+tuning/outputs/tuning_run_28/iterations/ created
+tuning/outputs/tuning_run_28/output/ created
+{'msa-file-name': 'sh3_pdz_combined.fa', 'em_maxiter': 30, 'em_numclusters': 2, 'em_device': None, 'em_init': 'kmeans', 'em_no_iter_print': 0, 'plmc': '../../plmc/bin/plmc', 'output': 'tuning/outputs/tuning_run_28', 'fast': 1, 'scale': None, 'theta': '2', 'lambdah': '0.01', 'lambdae': '16.0', 'lambdag': None, 'gapignore': 1, 'maxiter': '20', 'ncores': 6, 'gapignore_tune': '1', 'fast_tune': '1', 'em_iter_print': 1, 'iterations_dir': 'tuning/outputs/tuning_run_28/iterations/', 'final_dir': 'tuning/outputs/tuning_run_28/output/', 'output_dir': 'tuning/outputs/tuning_run_28/', 'plmc_options': ['-t 2', '-lh 0.01', '-le 16.0', '-m 20', '-n 6', '-g', '--fast'], 'device': device(type='cpu')}
+
+Using cpu
+
+
+Iteration 0:
+
+sh3_pdz_combined_cluster0_iter0:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+11658 valid sequences out of 11658 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 11658.00)
+iter	time	obj	|x|	|g|	crit
+1	0.1	838927.9	0.0	1.5	1.5
+2	0.2	801714.3	0.0	2.6	2.6
+3	0.3	773383.3	0.0	3.5	3.5
+4	0.4	745025.5	0.0	4.2	4.2
+5	0.5	711900.2	0.0	4.8	4.8
+6	0.6	694966.4	0.0	5.2	5.2
+7	0.7	675775.6	0.0	5.5	5.5
+8	0.8	648143.9	0.0	5.7	5.7
+9	0.9	632373.7	0.0	5.8	5.8
+10	1.0	614687.4	0.0	5.8	5.8
+11	1.1	606836.0	0.0	5.8	5.8
+12	1.2	601747.7	0.0	5.7	5.7
+13	1.4	586969.8	0.0	5.6	5.6
+14	1.5	573968.1	0.0	5.5	5.5
+15	1.6	580085.6	0.0	5.3	5.3
+16	1.7	559648.2	0.0	5.2	5.2
+17	1.8	560547.4	0.0	5.0	5.0
+18	1.8	550617.2	0.0	4.8	4.8
+19	1.9	549041.2	0.1	4.6	4.6
+20	2.1	527255.1	0.1	4.4	4.4
+
+
+sh3_pdz_combined_cluster1_iter0:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+17920 valid sequences out of 17920 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 17920.00)
+iter	time	obj	|x|	|g|	crit
+1	0.1	1311591.0	0.0	2.4	2.4
+2	0.3	1263777.8	0.0	4.0	4.0
+3	0.4	1230792.3	0.0	5.4	5.4
+4	0.5	1170083.1	0.0	6.5	6.5
+5	0.6	1136677.6	0.0	7.3	7.3
+6	0.7	1102057.2	0.0	8.0	8.0
+7	0.8	1065347.8	0.0	8.5	8.5
+8	0.9	1040378.4	0.0	8.8	8.8
+9	1.0	1007294.3	0.0	9.0	9.0
+10	1.2	981088.1	0.0	9.2	9.2
+11	1.3	952782.3	0.0	9.2	9.2
+12	1.4	949528.4	0.0	9.1	9.1
+13	1.5	931858.9	0.0	8.9	8.9
+14	1.6	919465.2	0.1	8.8	8.8
+15	1.7	903673.2	0.1	8.6	8.6
+16	1.9	888937.1	0.1	8.3	8.3
+17	2.0	878842.8	0.1	8.1	8.1
+18	2.1	849635.1	0.1	7.8	7.8
+19	2.2	866872.8	0.1	7.5	7.5
+20	2.3	848852.5	0.1	7.2	7.2
+
+
+Iteration 1:
+TERMINATING: Repeated cluster assignments

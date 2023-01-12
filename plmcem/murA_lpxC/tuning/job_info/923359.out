@@ -1,0 +1,74 @@
+tuning/outputs/tuning_run_52/ created
+tuning/outputs/tuning_run_52/iterations/ created
+tuning/outputs/tuning_run_52/output/ created
+{'msa-file-name': 'murA_lpxC_filtered.fa', 'em_maxiter': 30, 'em_numclusters': 2, 'em_device': None, 'em_init': 'kmeans', 'em_no_iter_print': 0, 'plmc': '../../plmc/bin/plmc', 'output': 'tuning/outputs/tuning_run_52', 'fast': 1, 'scale': None, 'theta': '2', 'lambdah': '0.01', 'lambdae': '16.0', 'lambdag': None, 'gapignore': 0, 'maxiter': '5', 'ncores': 6, 'gapignore_tune': '0', 'fast_tune': '1', 'em_iter_print': 1, 'iterations_dir': 'tuning/outputs/tuning_run_52/iterations/', 'final_dir': 'tuning/outputs/tuning_run_52/output/', 'output_dir': 'tuning/outputs/tuning_run_52/', 'plmc_options': ['-t 2', '-lh 0.01', '-le 16.0', '-m 5', '-n 6', '--fast'], 'device': device(type='cpu')}
+
+Using cpu
+
+
+Iteration 0:
+
+murA_lpxC_filtered_cluster0_iter0:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+1676 valid sequences out of 1676 
+724 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 1676.00)
+iter	time	obj	|x|	|g|	crit
+1	19.5	970844.8	0.0	0.1	0.1
+2	36.7	1172244.6	0.0	0.2	0.2
+3	61.0	1125508.0	0.0	0.3	0.3
+4	82.3	873186.0	0.0	0.3	0.3
+5	101.8	844755.8	0.0	0.3	0.3
+
+
+murA_lpxC_filtered_cluster1_iter0:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+6626 valid sequences out of 6626 
+724 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 6626.00)
+iter	time	obj	|x|	|g|	crit
+1	28.2	5727333.4	0.0	0.6	0.6
+2	51.4	5543591.9	0.0	1.2	1.2
+3	72.2	5173827.5	0.0	1.2	1.2
+4	86.8	5000970.5	0.0	1.2	1.2
+5	101.4	4417809.7	0.0	1.2	1.2
+
+
+Iteration 1:
+
+murA_lpxC_filtered_cluster0_iter1:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+1684 valid sequences out of 1684 
+724 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 1684.00)
+iter	time	obj	|x|	|g|	crit
+1	19.6	986833.0	0.0	0.1	0.1
+2	35.9	1249367.8	0.0	0.3	0.3
+3	59.3	1084671.0	0.0	0.3	0.3
+4	80.5	912900.2	0.0	0.3	0.3
+5	102.6	855929.4	0.0	0.3	0.3
+
+
+murA_lpxC_filtered_cluster1_iter1:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+6618 valid sequences out of 6618 
+724 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 6618.00)
+iter	time	obj	|x|	|g|	crit
+1	28.3	5737418.1	0.0	0.6	0.6
+2	50.7	5359481.1	0.0	1.2	1.2
+3	73.2	5178140.0	0.0	1.2	1.2
+4	89.4	4989567.1	0.0	1.2	1.2
+5	104.0	4341172.8	0.0	1.2	1.2
+
+
+Iteration 2:
+TERMINATING: Repeated cluster assignments

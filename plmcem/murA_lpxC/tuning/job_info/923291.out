@@ -1,0 +1,178 @@
+tuning/outputs/tuning_run_18/ created
+tuning/outputs/tuning_run_18/iterations/ created
+tuning/outputs/tuning_run_18/output/ created
+{'msa-file-name': 'murA_lpxC_filtered.fa', 'em_maxiter': 30, 'em_numclusters': 2, 'em_device': None, 'em_init': 'kmeans', 'em_no_iter_print': 0, 'plmc': '../../plmc/bin/plmc', 'output': 'tuning/outputs/tuning_run_18', 'fast': 0, 'scale': None, 'theta': '2', 'lambdah': '0.01', 'lambdae': '16.0', 'lambdag': None, 'gapignore': 1, 'maxiter': '2', 'ncores': 6, 'gapignore_tune': '1', 'fast_tune': '0', 'em_iter_print': 1, 'iterations_dir': 'tuning/outputs/tuning_run_18/iterations/', 'final_dir': 'tuning/outputs/tuning_run_18/output/', 'output_dir': 'tuning/outputs/tuning_run_18/', 'plmc_options': ['-t 2', '-lh 0.01', '-le 16.0', '-m 2', '-n 6', '-g'], 'device': device(type='cpu')}
+
+Using cpu
+
+
+Iteration 0:
+
+murA_lpxC_filtered_cluster0_iter0:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+1676 valid sequences out of 1676 
+724 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 1676.00)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	22.5	372.70	878180.1	877633.4	230.4	1.0
+2	36.0	323.46	698067.2	697117.5	230.4	5.1
+Gradient optimization: MAXIMUMITERATION
+
+
+murA_lpxC_filtered_cluster1_iter0:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+6626 valid sequences out of 6626 
+724 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 6626.00)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	59.4	1200.12	5281753.7	5281018.4	268.2	1.0
+2	90.5	1097.78	4310299.7	4308822.7	268.2	6.9
+Gradient optimization: MAXIMUMITERATION
+
+
+Iteration 1:
+
+murA_lpxC_filtered_cluster0_iter1:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+1661 valid sequences out of 1661 
+724 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 1661.00)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	23.8	368.97	856330.4	855781.0	231.0	1.0
+2	43.5	326.86	676170.2	675203.7	231.0	5.2
+Gradient optimization: MAXIMUMITERATION
+
+
+murA_lpxC_filtered_cluster1_iter1:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+6641 valid sequences out of 6641 
+724 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 6641.00)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	67.4	1202.68	5302290.2	5301555.2	268.1	1.0
+2	100.1	1094.67	4330086.0	4328615.5	268.1	6.9
+Gradient optimization: MAXIMUMITERATION
+
+
+Iteration 2:
+
+murA_lpxC_filtered_cluster0_iter2:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+1659 valid sequences out of 1659 
+724 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 1659.00)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	22.8	368.28	853348.1	852798.1	231.1	1.0
+2	36.4	327.67	673183.6	672213.8	231.1	5.2
+Gradient optimization: MAXIMUMITERATION
+
+
+murA_lpxC_filtered_cluster1_iter2:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+6643 valid sequences out of 6643 
+724 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 6643.00)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	59.4	1203.00	5305199.5	5304464.6	268.1	1.0
+2	90.6	1094.07	4332921.0	4331451.4	268.1	6.8
+Gradient optimization: MAXIMUMITERATION
+
+
+Iteration 3:
+
+murA_lpxC_filtered_cluster0_iter3:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+1657 valid sequences out of 1657 
+724 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 1657.00)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	22.5	367.78	850750.3	850200.2	231.1	1.0
+2	37.6	328.63	670648.9	669677.1	231.1	5.2
+Gradient optimization: MAXIMUMITERATION
+
+
+murA_lpxC_filtered_cluster1_iter3:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+6645 valid sequences out of 6645 
+724 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 6645.00)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	61.4	1203.22	5307769.4	5307034.5	268.1	1.0
+2	91.6	1093.88	4335320.5	4333851.4	268.1	6.8
+Gradient optimization: MAXIMUMITERATION
+
+
+Iteration 4:
+
+murA_lpxC_filtered_cluster0_iter4:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+1655 valid sequences out of 1655 
+724 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 1655.00)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	26.0	367.26	847881.7	847331.3	231.2	1.0
+2	39.1	329.37	667831.8	666857.7	231.2	5.2
+Gradient optimization: MAXIMUMITERATION
+
+
+murA_lpxC_filtered_cluster1_iter4:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+6647 valid sequences out of 6647 
+724 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 6647.00)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	60.8	1203.57	5310568.9	5309834.1	268.1	1.0
+2	96.9	1093.75	4338065.4	4336597.1	268.1	6.8
+Gradient optimization: MAXIMUMITERATION
+
+
+Iteration 5:
+
+murA_lpxC_filtered_cluster0_iter5:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+1653 valid sequences out of 1653 
+724 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 1653.00)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	25.9	366.62	844997.8	844446.7	231.3	1.0
+2	38.9	330.00	664965.8	663988.8	231.3	5.3
+Gradient optimization: MAXIMUMITERATION
+
+
+murA_lpxC_filtered_cluster1_iter5:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+6649 valid sequences out of 6649 
+724 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 6649.00)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	65.7	1203.92	5313368.4	5312633.7	268.1	1.0
+2	97.1	1093.56	4340808.2	4339340.8	268.1	6.8
+Gradient optimization: MAXIMUMITERATION
+
+
+Iteration 6:
+TERMINATING: Repeated cluster assignments

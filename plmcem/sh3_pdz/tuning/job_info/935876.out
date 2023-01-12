@@ -1,0 +1,74 @@
+tuning/outputs/tuning_run_30/ created
+tuning/outputs/tuning_run_30/iterations/ created
+tuning/outputs/tuning_run_30/output/ created
+{'msa-file-name': 'sh3_pdz_combined.fa', 'em_maxiter': 30, 'em_numclusters': 2, 'em_device': None, 'em_init': 'kmeans', 'em_no_iter_print': 0, 'plmc': '../../plmc/bin/plmc', 'output': 'tuning/outputs/tuning_run_30', 'fast': 0, 'scale': None, 'theta': '2', 'lambdah': '0.01', 'lambdae': '16.0', 'lambdag': None, 'gapignore': 1, 'maxiter': '20', 'ncores': 6, 'gapignore_tune': '1', 'fast_tune': '0', 'em_iter_print': 1, 'iterations_dir': 'tuning/outputs/tuning_run_30/iterations/', 'final_dir': 'tuning/outputs/tuning_run_30/output/', 'output_dir': 'tuning/outputs/tuning_run_30/', 'plmc_options': ['-t 2', '-lh 0.01', '-le 16.0', '-m 20', '-n 6', '-g'], 'device': device(type='cpu')}
+
+Using cpu
+
+
+Iteration 0:
+
+sh3_pdz_combined_cluster0_iter0:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+11658 valid sequences out of 11658 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 11658.00)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	0.6	419.38	812940.1	812890.8	57.8	1.0
+2	0.9	696.69	697409.3	694789.9	57.8	12.7
+3	1.3	610.85	665388.0	658649.7	57.8	20.5
+4	1.5	287.19	631465.5	624613.9	57.7	20.6
+5	1.9	243.28	616973.4	610083.4	57.7	20.7
+6	2.3	227.27	605029.1	597484.6	57.7	21.7
+7	2.6	264.44	576334.5	564948.8	57.6	26.6
+8	2.9	424.86	570148.7	551898.7	57.5	33.7
+9	3.2	208.05	551423.2	533175.1	57.5	33.7
+10	3.5	146.04	543761.4	525925.2	57.5	33.4
+11	3.9	185.11	536561.2	517617.9	57.5	34.4
+12	4.1	137.12	528613.5	507171.9	57.5	36.6
+13	4.5	123.76	520588.4	495581.1	57.5	39.5
+14	4.7	145.12	513546.3	485193.3	57.5	42.1
+15	5.1	108.53	507362.3	476879.1	57.4	43.6
+16	5.4	90.65	502618.5	471679.0	57.4	44.0
+17	5.7	103.66	498784.9	467557.1	57.4	44.2
+18	6.0	83.18	494715.2	463123.7	57.4	44.4
+19	6.3	128.70	490343.9	456468.2	57.4	46.0
+20	6.6	129.80	488200.0	451775.3	57.4	47.7
+Gradient optimization: MAXIMUMITERATION
+
+
+sh3_pdz_combined_cluster1_iter0:
+
+OpenMP: Using 6 of 6 threads
+Alphabet length:21
+17920 valid sequences out of 17920 
+41 sites, none trimmed because no target specified
+Theta not between 0 and 1, no sequence reweighting applied (N = 17920.00)
+iter	time	cond	fx	-loglk	||h||	||e||
+1	0.9	621.96	1283398.7	1283351.3	56.1	1.0
+2	1.4	845.74	1092077.9	1089495.0	56.1	12.6
+3	2.3	548.12	1044652.0	1040440.0	56.0	16.2
+4	2.7	374.96	1023399.6	1018129.7	56.0	18.1
+5	3.2	337.01	992515.3	984713.5	55.9	22.0
+6	3.7	536.97	960947.5	948964.9	55.8	27.3
+7	4.1	330.33	925913.8	909826.0	55.8	31.7
+8	4.6	262.29	897343.4	878928.3	55.7	33.9
+9	5.1	368.24	878903.5	859245.6	55.7	35.0
+10	5.6	306.39	864343.9	845232.3	55.7	34.5
+11	6.1	237.13	852987.6	834833.5	55.7	33.7
+12	6.5	245.42	838256.4	819904.4	55.7	33.8
+13	6.8	342.30	828138.2	806374.3	55.7	36.9
+14	7.1	200.93	818644.5	794481.8	55.7	38.8
+15	7.4	157.40	807624.0	776941.1	55.6	43.8
+16	7.7	218.45	802134.7	766476.6	55.6	47.2
+17	7.9	135.66	796784.0	757673.5	55.6	49.4
+18	8.2	119.00	791263.5	749330.4	55.5	51.2
+19	8.4	164.01	786309.6	742871.7	55.5	52.1
+20	8.7	177.14	780059.1	734617.1	55.5	53.3
+Gradient optimization: MAXIMUMITERATION
+
+
+Iteration 1:
+TERMINATING: Repeated cluster assignments
