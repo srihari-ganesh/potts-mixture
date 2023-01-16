@@ -12,8 +12,8 @@ from torch import nn
 from tabulate import tabulate
 import sklearn.cluster as skcluster
 from evcouplings.couplings import CouplingsModel
-from alignmenttools.MultipleSequenceAlignment import MultipleSequenceAlignment as MSA
-from alignmenttools.MultipleSequenceAlignment import readAlignment
+from bioviper import MultipleSequenceAlignment as MSA
+from bioviper import readAlignment
 from itertools import product
 
 msa_file_name = 'murA_lpxC_filtered.fa'

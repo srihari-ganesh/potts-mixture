@@ -14,8 +14,8 @@ from tabulate import tabulate
 import sklearn.cluster as skcluster
 
 from evcouplings.couplings import CouplingsModel
-from alignmenttools.MultipleSequenceAlignment import MultipleSequenceAlignment as MSA
-from alignmenttools.MultipleSequenceAlignment import readAlignment
+from bioviper import MultipleSequenceAlignment as MSA
+from bioviper import readAlignment
 
 ints = ['em_maxiter', 'em_numclusters', 'gapignore', 'ncores', 'fast', 'em_no_iter_print', 'em_final_print']
 plmc_args = [('scale', '-s'), ('theta', '-t'), ('lambdah', '-lh'), ('lambdae', '-le'), ('lambdag', '-lg'), ('maxiter', '-m')]

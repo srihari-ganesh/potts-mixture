@@ -15,8 +15,8 @@ import matplotlib.pyplot as plt
 
 from evcouplings.couplings import CouplingsModel
 from evcouplings.couplings.model import _single_mutant_hamiltonians
-from alignmenttools.MultipleSequenceAlignment import MultipleSequenceAlignment as MSA
-from alignmenttools.MultipleSequenceAlignment import readAlignment
+from bioviper import MultipleSequenceAlignment as MSA
+from bioviper import readAlignment
 
 parser = argparse.ArgumentParser(description="Pseudolikelihood Parser", formatter_class=argparse.ArgumentDefaultsHelpFormatter)
 parser.add_argument('msa', help='Input alignment file name.')

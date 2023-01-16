@@ -14,8 +14,8 @@ from tabulate import tabulate
 import sklearn.cluster as skcluster
 
 from evcouplings.couplings import CouplingsModel
-from alignmenttools.MultipleSequenceAlignment import MultipleSequenceAlignment as MSA
-from alignmenttools.MultipleSequenceAlignment import readAlignment
+from bioviper import MultipleSequenceAlignment as MSA
+from bioviper import readAlignment
 
 parser = argparse.ArgumentParser(description="PLMC EM Parser", formatter_class=argparse.ArgumentDefaultsHelpFormatter)
 parser.add_argument('msa-file-name', help='Input alignment file name.')
