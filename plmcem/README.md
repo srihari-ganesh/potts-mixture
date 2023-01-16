@@ -7,3 +7,5 @@ You'll see that files for running tuning called tuning_submitter.py, tuning.sh, 
 This will make a file in the tuning folder that summarizes the clustering results.
 - In that file, the hyperparameters that are varied are listed.
 - For performance, you'll see four columns: i0:t0, i0:t1, i1:t0, i1:t1. For explanation, i0:t1 represents the overlap in the number of sequencess between the 0th inferred cluster and the 1st true cluster (if we're zero indexing). There's also a score (that's supposed to be at most 1) which is meant to summarize the success of clustering based on the number of pairs of sequences that are correctly or incorrectly inferred into the same cluster. I know it equals 1 when clustering is perfect, but don't know much else about its efficacy.
+
+*Note: A lot of this code has, on line 2, collections.Iterable = collections.abc.Iterable. The pip-installed version of evcouplings I have was made before a change in the structure of collections (I think). It seems that the development version of evcouplings has adjusted to this change, so if it throws an error b/c of this line, just remove it and the code should run fine.*
