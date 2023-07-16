@@ -1,3 +1,3 @@
 # Potts mixture models
-## A poorly-arranged conglomeration of my work from Summer 2022
-The only thing that's like legible is plmcem/. plmc/ is just a clone of the actual plmc so we can run it, and everything else was playing around that has not amounted to anything quite yet. Go to plmcem/
+## An unofficial collection of my work from Summer 2022
+The most developed progress was my expectation-maximization inference of Potts models (using PLMC), which can be found in plmcem/. You should use your own version of plmc/ to be able to run this. Everything else has not quite amounted to anything yet, so go to plmc/.
